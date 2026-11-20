@@ -1,20 +1,20 @@
 {
   "Schema": 2,
-  "UpdatedAt": "2026-11-20 15:13",
+  "UpdatedAt": "2026-11-20 15:25",
   "ClientVersion": "1.46",
   "ModpackVersion": "1.46.13",
   "TelegramUrl": "https://t.me/povar_mods",
   "SupportUrl": "https://boosty.to/sashkapovar",
   "BaseUrls": [
-    "https://raw.githubusercontent.com/SashkaPovar/povar-hub/main/",
-    "https://cdn.jsdelivr.net/gh/SashkaPovar/povar-hub@main/"
+    "https://raw.githubusercontent.com/PovarMods/povar-hub/main/",
+    "https://cdn.jsdelivr.net/gh/PovarMods/povar-hub@main/"
   ],
   "Hub": {
     "Version": "1.1.0",
     "MinVersion": "1.1.0",
     "Src": "hub/PovarHub.exe",
     "Url": "",
-    "Sha256": "c1ba16c69f05d89c47d8f241c996c6bbcb1c3672bab3adcdda06d80b1de59389",
+    "Sha256": "4204c5429db8ab616dca1fb8bc4b0cb23fbe6aa669331d99d1d5f8678e4e674a",
     "Size": 701440,
     "Date": "20 ноября 2026",
     "Changelog": [
