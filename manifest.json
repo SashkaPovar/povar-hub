@@ -1,0 +1,2132 @@
+{
+  "Schema": 2,
+  "UpdatedAt": "2026-11-20 15:05",
+  "ClientVersion": "1.46",
+  "ModpackVersion": "1.46.13",
+  "TelegramUrl": "https://t.me/povar_mods",
+  "SupportUrl": "https://boosty.to/sashkapovar",
+  "BaseUrls": [
+    "https://raw.githubusercontent.com/PovarMods/povar-hub/main/",
+    "https://cdn.jsdelivr.net/gh/PovarMods/povar-hub@main/"
+  ],
+  "Hub": {
+    "Version": "1.1.0",
+    "MinVersion": "1.1.0",
+    "Src": "hub/PovarHub.exe",
+    "Url": "",
+    "Sha256": "baf5eaafeb2b5284976c909d3c6997f97dfe226e6c196a73d30d8b1f2bed0863",
+    "Size": 701440,
+    "Date": "20 ноября 2026",
+    "Changelog": [
+      "Автоматическая загрузка и обновление модов из GitHub с проверкой SHA-256 и резервным зеркалом CDN",
+      "Самообновление лаунчера Povar Hub в один клик без ручной переустановки",
+      "Автоперенос выбранных модов при выходе нового патча «Мир танков»"
+    ]
+  },
+  "Libraries": [
+    {
+      "Id": "modslistapi",
+      "Name": "ModsListAPI",
+      "Version": "1.6.01",
+      "AlwaysInstall": false,
+      "CleanPatterns": [
+        "*modslistapi*.mtmod"
+      ],
+      "Files": [
+        {
+          "Src": "files/mods/me.poliroid.modslistapi_1.6.01.mtmod",
+          "Path": "me.poliroid.modslistapi_1.6.01.mtmod",
+          "Target": "mods",
+          "KeepUserCopy": false,
+          "Sha256": "b312adfcd005405d49b711e79b4032be7d624b6e38d4156364d1c04bc5dba71f",
+          "Size": 79776
+        }
+      ]
+    },
+    {
+      "Id": "modssettingsapi",
+      "Name": "ModsSettingsAPI",
+      "Version": "1.7.0",
+      "AlwaysInstall": false,
+      "CleanPatterns": [
+        "*modssettingsapi*.mtmod"
+      ],
+      "Files": [
+        {
+          "Src": "files/mods/izeberg.modssettingsapi_1.7.0.mtmod",
+          "Path": "izeberg.modssettingsapi_1.7.0.mtmod",
+          "Target": "mods",
+          "KeepUserCopy": false,
+          "Sha256": "e09b415e28e9129c78d9697eeed42e81c10459ad6982a885f1e59322eb0c2dca",
+          "Size": 162084
+        }
+      ]
+    },
+    {
+      "Id": "openwg_gameface",
+      "Name": "OpenWG Gameface",
+      "Version": "1.2.2",
+      "AlwaysInstall": false,
+      "CleanPatterns": [
+        "net.openwg/*gameface*.mtmod"
+      ],
+      "Files": [
+        {
+          "Src": "files/mods/net.openwg/net.openwg.gameface_1.2.2.mtmod",
+          "Path": "net.openwg/net.openwg.gameface_1.2.2.mtmod",
+          "Target": "mods",
+          "KeepUserCopy": false,
+          "Sha256": "2bb65f28663e3ab34b5a1102a1bbd1f6e17a65e1f6a898a8645c4ab732b50184",
+          "Size": 48445
+        }
+      ]
+    },
+    {
+      "Id": "openwg_fixes",
+      "Name": "OpenWG BattleResults Fixes",
+      "Version": "1.9.0",
+      "AlwaysInstall": false,
+      "CleanPatterns": [
+        "net.openwg/*fix.battleresultscache*.mtmod",
+        "net.openwg/*fix.battleresultsreplays*.mtmod"
+      ],
+      "Files": [
+        {
+          "Src": "files/mods/net.openwg/net.openwg.fix.battleresultscache_1.9.0.mtmod",
+          "Path": "net.openwg/net.openwg.fix.battleresultscache_1.9.0.mtmod",
+          "Target": "mods",
+          "KeepUserCopy": false,
+          "Sha256": "a98a724e5dac3a1147a0a99a0ba20866db33dcc1378b412e036998170c0f06ab",
+          "Size": 6563
+        },
+        {
+          "Src": "files/mods/net.openwg/net.openwg.fix.battleresultsreplays_1.1.0.mtmod",
+          "Path": "net.openwg/net.openwg.fix.battleresultsreplays_1.1.0.mtmod",
+          "Target": "mods",
+          "KeepUserCopy": false,
+          "Sha256": "98a3eb1c509b33c247abf65b99bae40d77873e8b4f2ec58237b711f2a7228f2a",
+          "Size": 14404
+        }
+      ]
+    },
+    {
+      "Id": "guiflash",
+      "Name": "GUIFlash",
+      "Version": "0.6.7",
+      "AlwaysInstall": false,
+      "CleanPatterns": [
+        "*guiflash*.mtmod"
+      ],
+      "Files": [
+        {
+          "Src": "files/mods/gambiter.guiflash_0.6.7.mtmod",
+          "Path": "gambiter.guiflash_0.6.7.mtmod",
+          "Target": "mods",
+          "KeepUserCopy": false,
+          "Sha256": "a5943b9d5bb50baa30a776dc9dfceb799b61f2df1dcde5d875e793b3fee54830",
+          "Size": 63217
+        }
+      ]
+    },
+    {
+      "Id": "mods_gui",
+      "Name": "ModsGUI",
+      "Version": "3.11",
+      "AlwaysInstall": false,
+      "CleanPatterns": [
+        "*mod_mods_gui*.mtmod"
+      ],
+      "Files": [
+        {
+          "Src": "files/mods/mod_mods_gui_3.11.mtmod",
+          "Path": "mod_mods_gui_3.11.mtmod",
+          "Target": "mods",
+          "KeepUserCopy": false,
+          "Sha256": "a6e1f2da446c589ab7169e3ca0d4a95be490f8d91d12bca79164610cfc2b9873",
+          "Size": 122800
+        },
+        {
+          "Src": "files/configs/mods_gui/i18n/bg.json",
+          "Path": "mods_gui/i18n/bg.json",
+          "Target": "configs",
+          "KeepUserCopy": true,
+          "Sha256": "8dc43acb8169e78df870ff5c0b532e752d469ff6c9b1c415485fdedd29211442",
+          "Size": 756
+        },
+        {
+          "Src": "files/configs/mods_gui/i18n/cs.json",
+          "Path": "mods_gui/i18n/cs.json",
+          "Target": "configs",
+          "KeepUserCopy": true,
+          "Sha256": "08f436c098599ba9b8b91c5e00a7a53c9721488d3462449b0c4c0ac5aa9fb9c2",
+          "Size": 489
+        },
+        {
+          "Src": "files/configs/mods_gui/i18n/da.json",
+          "Path": "mods_gui/i18n/da.json",
+          "Target": "configs",
+          "KeepUserCopy": true,
+          "Sha256": "53345ea52463382270b4562e808f6358083a27e32d8a90ab7c7f55ae1b81169f",
+          "Size": 489
+        },
+        {
+          "Src": "files/configs/mods_gui/i18n/de.json",
+          "Path": "mods_gui/i18n/de.json",
+          "Target": "configs",
+          "KeepUserCopy": true,
+          "Sha256": "94ef78dde34b270af1b6067ea2384f05a3be52b309533f6c29db6a6a747d15ed",
+          "Size": 526
+        },
+        {
+          "Src": "files/configs/mods_gui/i18n/el.json",
+          "Path": "mods_gui/i18n/el.json",
+          "Target": "configs",
+          "KeepUserCopy": true,
+          "Sha256": "21ce991d33d30a26d3c864c8e977e95d7be58bffb28b491f3be480ee01e71d60",
+          "Size": 715
+        },
+        {
+          "Src": "files/configs/mods_gui/i18n/en.json",
+          "Path": "mods_gui/i18n/en.json",
+          "Target": "configs",
+          "KeepUserCopy": true,
+          "Sha256": "6f47ad0d5ce59554d03109afe8f67f177af4d2157f29d2930374a287ca341ee7",
+          "Size": 491
+        },
+        {
+          "Src": "files/configs/mods_gui/i18n/es.json",
+          "Path": "mods_gui/i18n/es.json",
+          "Target": "configs",
+          "KeepUserCopy": true,
+          "Sha256": "89bec69137be1268275742d5351c57028e92c3300020c483dd5ff6cec19e1801",
+          "Size": 533
+        },
+        {
+          "Src": "files/configs/mods_gui/i18n/es_ar.json",
+          "Path": "mods_gui/i18n/es_ar.json",
+          "Target": "configs",
+          "KeepUserCopy": true,
+          "Sha256": "7fa33d2d7f5aa2c96862274c0a1fbdb360792591c1b799d7d6458f8bf751e3db",
+          "Size": 544
+        },
+        {
+          "Src": "files/configs/mods_gui/i18n/fi.json",
+          "Path": "mods_gui/i18n/fi.json",
+          "Target": "configs",
+          "KeepUserCopy": true,
+          "Sha256": "467c6ae7225c5fea5f42ed972ba931191457f49670a51d7a0f879e34cf88e8d4",
+          "Size": 508
+        },
+        {
+          "Src": "files/configs/mods_gui/i18n/fr.json",
+          "Path": "mods_gui/i18n/fr.json",
+          "Target": "configs",
+          "KeepUserCopy": true,
+          "Sha256": "fee2b1acb9059f3585bf8a20f2fc578ce6a9f4931463663061206d0dd253bd2e",
+          "Size": 552
+        },
+        {
+          "Src": "files/configs/mods_gui/i18n/hr.json",
+          "Path": "mods_gui/i18n/hr.json",
+          "Target": "configs",
+          "KeepUserCopy": true,
+          "Sha256": "7dab1bd48fbe8b106e0790280237c1896207e2090b24923431f639a5eb0e23b9",
+          "Size": 491
+        },
+        {
+          "Src": "files/configs/mods_gui/i18n/hu.json",
+          "Path": "mods_gui/i18n/hu.json",
+          "Target": "configs",
+          "KeepUserCopy": true,
+          "Sha256": "47395a573f83e34a7d54270bd529c42230160f26b4b74d97e86c5dd8eb612487",
+          "Size": 532
+        },
+        {
+          "Src": "files/configs/mods_gui/i18n/it.json",
+          "Path": "mods_gui/i18n/it.json",
+          "Target": "configs",
+          "KeepUserCopy": true,
+          "Sha256": "d409eebeb03c5d2ee33d7f9018fd75689e1ab895f6494bfc6f2a90b94d6205e0",
+          "Size": 551
+        },
+        {
+          "Src": "files/configs/mods_gui/i18n/ja.json",
+          "Path": "mods_gui/i18n/ja.json",
+          "Target": "configs",
+          "KeepUserCopy": true,
+          "Sha256": "dd3b7cbca1b93c32ec84eb72ed0b0ebc5f614a36d5c814f8e40547becc8d9000",
+          "Size": 560
+        },
+        {
+          "Src": "files/configs/mods_gui/i18n/ko.json",
+          "Path": "mods_gui/i18n/ko.json",
+          "Target": "configs",
+          "KeepUserCopy": true,
+          "Sha256": "f098c3bbb1477c283e866070bda4c967352fa441513ff36674971b07260f6531",
+          "Size": 560
+        },
+        {
+          "Src": "files/configs/mods_gui/i18n/lt.json",
+          "Path": "mods_gui/i18n/lt.json",
+          "Target": "configs",
+          "KeepUserCopy": true,
+          "Sha256": "acabaed0e4f838f3eb6d0cfe8c3e2b89240a1342fac5351e6fff9b21ae6b7396",
+          "Size": 516
+        },
+        {
+          "Src": "files/configs/mods_gui/i18n/lv.json",
+          "Path": "mods_gui/i18n/lv.json",
+          "Target": "configs",
+          "KeepUserCopy": true,
+          "Sha256": "744685ccd6c33f1c5d4eca58aced76bc1c845bc29674f55db55af8803b8df80a",
+          "Size": 517
+        },
+        {
+          "Src": "files/configs/mods_gui/i18n/module_settings.html",
+          "Path": "mods_gui/i18n/module_settings.html",
+          "Target": "configs",
+          "KeepUserCopy": true,
+          "Sha256": "093e3b1b7d11b741a0b8b4b58226ad76ff8d94301b6ee306c048692ebe36ad53",
+          "Size": 87807
+        },
+        {
+          "Src": "files/configs/mods_gui/i18n/nl.json",
+          "Path": "mods_gui/i18n/nl.json",
+          "Target": "configs",
+          "KeepUserCopy": true,
+          "Sha256": "676a0834ffa5b2d94f419965c8d2c7edad962e814f66ed09a0cf42e41f1f5fd1",
+          "Size": 559
+        },
+        {
+          "Src": "files/configs/mods_gui/i18n/no.json",
+          "Path": "mods_gui/i18n/no.json",
+          "Target": "configs",
+          "KeepUserCopy": true,
+          "Sha256": "e4c803d573ba3f147db2451be56c7c6b14d1a36d617c9d02bc7153643efc7c38",
+          "Size": 528
+        },
+        {
+          "Src": "files/configs/mods_gui/i18n/pl.json",
+          "Path": "mods_gui/i18n/pl.json",
+          "Target": "configs",
+          "KeepUserCopy": true,
+          "Sha256": "c9c2030851ca940814bc95979d0deff833ce8cfe1041660adc17e729bfeb46ae",
+          "Size": 521
+        },
+        {
+          "Src": "files/configs/mods_gui/i18n/pt.json",
+          "Path": "mods_gui/i18n/pt.json",
+          "Target": "configs",
+          "KeepUserCopy": true,
+          "Sha256": "90c1a554e3e1e969747eff8e74e0673173379de8c9ea6daba6e24efb0b317e10",
+          "Size": 513
+        },
+        {
+          "Src": "files/configs/mods_gui/i18n/pt_br.json",
+          "Path": "mods_gui/i18n/pt_br.json",
+          "Target": "configs",
+          "KeepUserCopy": true,
+          "Sha256": "905415ba953a04857ed93be879d636b9b9f044bef763cd231948c0f7b0899934",
+          "Size": 515
+        },
+        {
+          "Src": "files/configs/mods_gui/i18n/ro.json",
+          "Path": "mods_gui/i18n/ro.json",
+          "Target": "configs",
+          "KeepUserCopy": true,
+          "Sha256": "c93fa19bdaff6a55a2ba2ec71d30d05c184b7d1889b5a9a102467149f02ab611",
+          "Size": 524
+        },
+        {
+          "Src": "files/configs/mods_gui/i18n/ru.json",
+          "Path": "mods_gui/i18n/ru.json",
+          "Target": "configs",
+          "KeepUserCopy": true,
+          "Sha256": "ac48ca2636b3a0ccce3f10639473317ae8553ad1242aca9e091acb11349de587",
+          "Size": 722
+        },
+        {
+          "Src": "files/configs/mods_gui/i18n/sr.json",
+          "Path": "mods_gui/i18n/sr.json",
+          "Target": "configs",
+          "KeepUserCopy": true,
+          "Sha256": "675b97242b9a1ca6738c2f4d2b2fd2f86c542d56ca124ceb03807a296e375244",
+          "Size": 510
+        },
+        {
+          "Src": "files/configs/mods_gui/i18n/sv.json",
+          "Path": "mods_gui/i18n/sv.json",
+          "Target": "configs",
+          "KeepUserCopy": true,
+          "Sha256": "1c6fc3731548da15165732cafee78cd19a8c0dc5705390ac256ec57d3e9c25e7",
+          "Size": 526
+        },
+        {
+          "Src": "files/configs/mods_gui/i18n/th.json",
+          "Path": "mods_gui/i18n/th.json",
+          "Target": "configs",
+          "KeepUserCopy": true,
+          "Sha256": "c9386d7956e724a59e18286a46e42da22b805f58dd2c70b414a1e57b221ac9b8",
+          "Size": 849
+        },
+        {
+          "Src": "files/configs/mods_gui/i18n/tr.json",
+          "Path": "mods_gui/i18n/tr.json",
+          "Target": "configs",
+          "KeepUserCopy": true,
+          "Sha256": "e0d69e799db435465bea364d780dc3f9e41d5cb279b6ebebce8db8a90c0f920d",
+          "Size": 522
+        },
+        {
+          "Src": "files/configs/mods_gui/i18n/uk.json",
+          "Path": "mods_gui/i18n/uk.json",
+          "Target": "configs",
+          "KeepUserCopy": true,
+          "Sha256": "50e65698172a42a2e872256eeeae560fcceafe474ca968b650dec1f1ecdaae0b",
+          "Size": 736
+        },
+        {
+          "Src": "files/configs/mods_gui/i18n/vi.json",
+          "Path": "mods_gui/i18n/vi.json",
+          "Target": "configs",
+          "KeepUserCopy": true,
+          "Sha256": "f7bf56b8a308bc6b3bf88a351f5bf288b93d0d2fb58038de9a432aa8468979cf",
+          "Size": 519
+        },
+        {
+          "Src": "files/configs/mods_gui/i18n/zh_cn.json",
+          "Path": "mods_gui/i18n/zh_cn.json",
+          "Target": "configs",
+          "KeepUserCopy": true,
+          "Sha256": "f2a99455aa1ebbbcc4746dca45657ec2918c35090c4a3c9958696b90b3b3e9fe",
+          "Size": 461
+        },
+        {
+          "Src": "files/configs/mods_gui/i18n/zh_sg.json",
+          "Path": "mods_gui/i18n/zh_sg.json",
+          "Target": "configs",
+          "KeepUserCopy": true,
+          "Sha256": "f2a99455aa1ebbbcc4746dca45657ec2918c35090c4a3c9958696b90b3b3e9fe",
+          "Size": 461
+        },
+        {
+          "Src": "files/configs/mods_gui/i18n/zh_tw.json",
+          "Path": "mods_gui/i18n/zh_tw.json",
+          "Target": "configs",
+          "KeepUserCopy": true,
+          "Sha256": "1e3c300bf9c54803d7700a9a2ae04da3be697b50f8f20fb7ddd43c9aa2cb75ae",
+          "Size": 474
+        }
+      ]
+    },
+    {
+      "Id": "hangar_environments",
+      "Name": "Пакеты окружения 3D-ангаров",
+      "Version": "3.1",
+      "AlwaysInstall": false,
+      "CleanPatterns": [
+        "environments/*.mtmod"
+      ],
+      "Files": [
+        {
+          "Src": "files/mods/environments/environments.common_3.0_1.mtmod",
+          "Path": "environments/environments.common_3.0_1.mtmod",
+          "Target": "mods",
+          "KeepUserCopy": false,
+          "Sha256": "ca4645782e6cbd161431745ddbd6cae41a145e3d6657dd5ad3265f0c1f6bd3b9",
+          "Size": 20171084
+        },
+        {
+          "Src": "files/mods/environments/environments.common_3.0_2.mtmod",
+          "Path": "environments/environments.common_3.0_2.mtmod",
+          "Target": "mods",
+          "KeepUserCopy": false,
+          "Sha256": "44b9d91c59b3578ec8be20c971cac751296a2f9a55238c8a83b1035fd3230886",
+          "Size": 24362225
+        },
+        {
+          "Src": "files/mods/environments/environments.sand_midday_3.0.mtmod",
+          "Path": "environments/environments.sand_midday_3.0.mtmod",
+          "Target": "mods",
+          "KeepUserCopy": false,
+          "Sha256": "a160940b42d77069cf95dffbe25828ef1ab4a3723f2b3e9af77da02998a03892",
+          "Size": 2741976
+        },
+        {
+          "Src": "files/mods/environments/environments.sand_night_3.0.mtmod",
+          "Path": "environments/environments.sand_night_3.0.mtmod",
+          "Target": "mods",
+          "KeepUserCopy": false,
+          "Sha256": "016071f5db33e41fa801a3cafe9d4b2183ee4e4c928b3a173265b7b5ee2c93e6",
+          "Size": 2741535
+        },
+        {
+          "Src": "files/mods/environments/environments.sand_sandstorm_3.0.mtmod",
+          "Path": "environments/environments.sand_sandstorm_3.0.mtmod",
+          "Target": "mods",
+          "KeepUserCopy": false,
+          "Sha256": "464d17b95cfa799cbc29208a6fea61785aa87198ca21be4f6d550797ce00b0c2",
+          "Size": 2740853
+        },
+        {
+          "Src": "files/mods/environments/environments.sand_sunset_3.0.mtmod",
+          "Path": "environments/environments.sand_sunset_3.0.mtmod",
+          "Target": "mods",
+          "KeepUserCopy": false,
+          "Sha256": "f38c45b9d213658a3fe8485ff48669577f09a7bb216ec759a02501e4cc942906",
+          "Size": 2741195
+        },
+        {
+          "Src": "files/mods/environments/environments.summer_midday_3.0.mtmod",
+          "Path": "environments/environments.summer_midday_3.0.mtmod",
+          "Target": "mods",
+          "KeepUserCopy": false,
+          "Sha256": "365ed79715b687dba0d0b749f48db9f7c219bbdb333fcb6331df48c75326b3a0",
+          "Size": 22475754
+        },
+        {
+          "Src": "files/mods/environments/environments.summer_night_3.0.mtmod",
+          "Path": "environments/environments.summer_night_3.0.mtmod",
+          "Target": "mods",
+          "KeepUserCopy": false,
+          "Sha256": "39ed6124ed948c3a1165c516cc3c43f5a2dbeea09450e0aa16b96489e552cddc",
+          "Size": 22463949
+        },
+        {
+          "Src": "files/mods/environments/environments.summer_overcast_3.0.mtmod",
+          "Path": "environments/environments.summer_overcast_3.0.mtmod",
+          "Target": "mods",
+          "KeepUserCopy": false,
+          "Sha256": "0be7eafac1b3376bc6a9c8f6932e394c84fe4c83a6956da5f2171ec47b50bc48",
+          "Size": 24055740
+        },
+        {
+          "Src": "files/mods/environments/environments.summer_sunset_3.1.mtmod",
+          "Path": "environments/environments.summer_sunset_3.1.mtmod",
+          "Target": "mods",
+          "KeepUserCopy": false,
+          "Sha256": "93dad0a4bb9fcfc90f19c93b43c6ad3ead50e9678bb8414f21e39c1cf08537b3",
+          "Size": 22481115
+        },
+        {
+          "Src": "files/mods/environments/environments.winter_midday_3.0.mtmod",
+          "Path": "environments/environments.winter_midday_3.0.mtmod",
+          "Target": "mods",
+          "KeepUserCopy": false,
+          "Sha256": "4b6a9c83a7e3fd64e0a9304bea7a78bfff030d79a72b77ac2a6b7430cb6d6841",
+          "Size": 4390451
+        },
+        {
+          "Src": "files/mods/environments/environments.winter_night_3.0.mtmod",
+          "Path": "environments/environments.winter_night_3.0.mtmod",
+          "Target": "mods",
+          "KeepUserCopy": false,
+          "Sha256": "c0b54cc4b72bc1eec08271358e03c5aef9c6c94a3c5d294cb3157cd095dbde5d",
+          "Size": 4399423
+        },
+        {
+          "Src": "files/mods/environments/environments.winter_overcast_3.0.mtmod",
+          "Path": "environments/environments.winter_overcast_3.0.mtmod",
+          "Target": "mods",
+          "KeepUserCopy": false,
+          "Sha256": "9bd19a629baa2691a08d6404862b9fbf7b7da18971b6101efae326f94ed80edc",
+          "Size": 4389762
+        },
+        {
+          "Src": "files/mods/environments/environments.winter_sunset_3.0.mtmod",
+          "Path": "environments/environments.winter_sunset_3.0.mtmod",
+          "Target": "mods",
+          "KeepUserCopy": false,
+          "Sha256": "ab64bfcd64cf2f20ab26571f6bac513d3c4988456f345a94e93af8ca79451121",
+          "Size": 4399459
+        }
+      ]
+    }
+  ],
+  "Mods": [
+    {
+      "Id": "onslaught_mods",
+      "Name": "Комплекс модов Натиска",
+      "Author": "PovarMods",
+      "IsPovar": true,
+      "Category": "stats",
+      "CategoryName": "Статистика",
+      "Version": "1.46.12",
+      "SizeMb": 3.2,
+      "ShortDesc": "Единый комплексный мод соревновательного режима «Натиск».",
+      "FullDesc": "Содержит внутри себя полную аналитику режима Натиск (очки престижа, графики, сессии), коллектор матчей и пропуск отсчета в реплеях. Включает пакеты веб-интерфейса OpenWG.",
+      "Features": [
+        "Аналитика прироста и потери очков престижа за сессию",
+        "Автоматический сбор статистики побед и поражений по картам",
+        "Быстрый пропуск 30-секундного отсчета при просмотре реплеев",
+        "Интеграция с официальным окном результатов режима Натиск"
+      ],
+      "AuthorUrl": "https://t.me/povar_mods",
+      "Changelog": [],
+      "Requires": [
+        "modslistapi",
+        "modssettingsapi",
+        "openwg_fixes"
+      ],
+      "CleanPatterns": [
+        "povar/*onslaught*.mtmod",
+        "povar/*onslaught*.pyc",
+        "povar/*collector*.mtmod",
+        "povar/*collector*.pyc",
+        "povar/*ofsw*.mtmod",
+        "povar/*ofsw*.pyc",
+        "povar/*orsi*.mtmod",
+        "povar/*orsi*.pyc",
+        "povar/*replay.countdown*.mtmod",
+        "povar/*smoke.zone*.mtmod"
+      ],
+      "Conflicts": [],
+      "IsNew": false,
+      "IsBroken": false,
+      "BrokenReason": "",
+      "IsVideoTeam": false,
+      "VideoTeamOnly": false,
+      "ScreenshotUrl": "",
+      "ScreenshotSha256": "",
+      "Hidden": false,
+      "Files": [
+        {
+          "Src": "files/mods/povar/povarmods.onslaught.pack.mtmod",
+          "Path": "povar/povarmods.onslaught.pack.mtmod",
+          "Target": "mods",
+          "KeepUserCopy": false,
+          "Sha256": "3d9dee9928d2d99ece375c3672dc9ca7b7797ba26fc20937045ce87c78166c2c",
+          "Size": 3335877
+        },
+        {
+          "Src": "files/configs/povar/ofsw/settings.json",
+          "Path": "povar/ofsw/settings.json",
+          "Target": "configs",
+          "KeepUserCopy": true,
+          "Sha256": "d651c7f62e72d402b205ff0a8d53dae69f7c11da0653f8d750f241fc7c810bd9",
+          "Size": 67
+        },
+        {
+          "Src": "files/configs/povar/orsi/settings.json",
+          "Path": "povar/orsi/settings.json",
+          "Target": "configs",
+          "KeepUserCopy": true,
+          "Sha256": "71e0f01116eed7d67e7373007a5589c389c474d511598ed8a00b600058905cbd",
+          "Size": 1579
+        }
+      ]
+    },
+    {
+      "Id": "battle_hp",
+      "Name": "Очки прочности в ушах команд",
+      "Author": "PovarMods",
+      "IsPovar": true,
+      "Category": "battle",
+      "CategoryName": "В бою",
+      "Version": "0.2.0",
+      "SizeMb": 0.2,
+      "ShortDesc": "Индивидуальные и суммарные полоски HP техники союзников и врагов.",
+      "FullDesc": "Информативные цветные полоски здоровья каждого танка в боковых панелях (ушах) команд. Позволяет мгновенно оценить перевес по очкам прочности на фланге.",
+      "Features": [
+        "Индивидуальные индикаторы HP каждого танка в ушах",
+        "Суммарный счетчик общего запаса очков прочности команд",
+        "Цветовая дифференциация остатка здоровья (зеленый/желтый/красный)",
+        "Абсолютно нулевое влияние на частоту кадров (FPS)"
+      ],
+      "AuthorUrl": "https://t.me/povar_mods",
+      "Changelog": [],
+      "Requires": [
+        "modslistapi"
+      ],
+      "CleanPatterns": [
+        "povar/*battlehp*.mtmod",
+        "povar/*battle_hp*.mtmod",
+        "povar/*battlehp*.pyc"
+      ],
+      "Conflicts": [],
+      "IsNew": false,
+      "IsBroken": false,
+      "BrokenReason": "",
+      "IsVideoTeam": false,
+      "VideoTeamOnly": false,
+      "ScreenshotUrl": "",
+      "ScreenshotSha256": "",
+      "Hidden": false,
+      "Files": [
+        {
+          "Src": "files/mods/povar/povarmods.battlehp.mtmod",
+          "Path": "povar/povarmods.battlehp.mtmod",
+          "Target": "mods",
+          "KeepUserCopy": false,
+          "Sha256": "73d957139dbf159f23a202647717084b1d62cfb4035d38f9b9f12c31c811ef5c",
+          "Size": 177736
+        }
+      ]
+    },
+    {
+      "Id": "battle_notifications",
+      "Name": "Вкладка боёв в Центре уведомлений",
+      "Author": "PovarMods",
+      "IsPovar": true,
+      "Category": "hangar",
+      "CategoryName": "Ангар",
+      "Version": "0.4.1",
+      "SizeMb": 0.1,
+      "ShortDesc": "Отдельная удобная вкладка боевых отчетов в ангаре.",
+      "FullDesc": "Разделяет системные сообщения и боевые результаты в Центре уведомлений ангара на отдельные вкладки для быстрого доступа.",
+      "Features": [
+        "Выделенная вкладка только для результатов сыгранных боёв",
+        "Фильтрация системного спама и клановых оповещений",
+        "Быстрый переход к подробному отчету боя в один клик",
+        "Сохранение истории сессии между перезапусками клиента"
+      ],
+      "AuthorUrl": "https://t.me/povar_mods",
+      "Changelog": [],
+      "Requires": [],
+      "CleanPatterns": [
+        "povar/*battle*notifications*.mtmod",
+        "povar/*battle*notifications*.pyc"
+      ],
+      "Conflicts": [],
+      "IsNew": false,
+      "IsBroken": false,
+      "BrokenReason": "",
+      "IsVideoTeam": false,
+      "VideoTeamOnly": false,
+      "ScreenshotUrl": "",
+      "ScreenshotSha256": "",
+      "Hidden": false,
+      "Files": [
+        {
+          "Src": "files/mods/povar/povarmods.battle.notifications.tab_0.4.1.mtmod",
+          "Path": "povar/povarmods.battle.notifications.tab_0.4.1.mtmod",
+          "Target": "mods",
+          "KeepUserCopy": false,
+          "Sha256": "532c431dc04510c0f74f569fe0c8045a420f7473f49068da178911ca4658c341",
+          "Size": 71735
+        }
+      ]
+    },
+    {
+      "Id": "login_mode",
+      "Name": "Выбор режима боя при входе",
+      "Author": "PovarMods",
+      "IsPovar": true,
+      "Category": "hangar",
+      "CategoryName": "Ангар",
+      "Version": "0.1.9",
+      "SizeMb": 0.1,
+      "ShortDesc": "Автоматический выбор желаемого боевого режима при логине.",
+      "FullDesc": "Запоминает выбранный режим боя (Случайный бой, Натиск, Линия фронта) и активирует его сразу при запуске игры, минуя сбросы.",
+      "Features": [
+        "Запоминание последнего выбранного типа боя",
+        "Предотвращение случайного выхода в рандом вместо Натиска",
+        "Поддержка всех временных игровых событий и Линии фронта"
+      ],
+      "AuthorUrl": "https://t.me/povar_mods",
+      "Changelog": [],
+      "Requires": [],
+      "CleanPatterns": [
+        "povar/*login*mode*.mtmod",
+        "povar/*login*mode*.pyc"
+      ],
+      "Conflicts": [],
+      "IsNew": false,
+      "IsBroken": false,
+      "BrokenReason": "",
+      "IsVideoTeam": false,
+      "VideoTeamOnly": false,
+      "ScreenshotUrl": "",
+      "ScreenshotSha256": "",
+      "Hidden": false,
+      "Files": [
+        {
+          "Src": "files/mods/povar/povarmods.login.mode_0.1.9.mtmod",
+          "Path": "povar/povarmods.login.mode_0.1.9.mtmod",
+          "Target": "mods",
+          "KeepUserCopy": false,
+          "Sha256": "d3257e298f329e5973899cf28ca039ecda3d1ccba58e9d515eaad4acbb504a61",
+          "Size": 23411
+        }
+      ]
+    },
+    {
+      "Id": "auto_reserves",
+      "Name": "Автоактивация резервов",
+      "Author": "PovarMods",
+      "IsPovar": true,
+      "Category": "hangar",
+      "CategoryName": "Ангар",
+      "Version": "2.12.3",
+      "SizeMb": 0.1,
+      "ShortDesc": "Автоматическое продление личных и клановых резервов.",
+      "FullDesc": "Автоматически включает боевой опыт, свободный опыт или опыт экипажа в ангаре по истечении таймера, экономя время игрока.",
+      "Features": [
+        "Автоматическое включение выбранных личных резервов",
+        "Поддержка клановых финансовых резервов",
+        "Гибкая настройка типов опыта через меню настроек модов"
+      ],
+      "AuthorUrl": "https://t.me/povar_mods",
+      "Changelog": [],
+      "Requires": [
+        "modslistapi",
+        "modssettingsapi"
+      ],
+      "CleanPatterns": [
+        "povar/*auto.reserves*.mtmod",
+        "povar/*reserves*.pyc"
+      ],
+      "Conflicts": [],
+      "IsNew": false,
+      "IsBroken": false,
+      "BrokenReason": "",
+      "IsVideoTeam": false,
+      "VideoTeamOnly": false,
+      "ScreenshotUrl": "",
+      "ScreenshotSha256": "",
+      "Hidden": false,
+      "Files": [
+        {
+          "Src": "files/mods/povar/povarmods.auto.reserves_2.12.3.mtmod",
+          "Path": "povar/povarmods.auto.reserves_2.12.3.mtmod",
+          "Target": "mods",
+          "KeepUserCopy": false,
+          "Sha256": "5671e00dd7fb07dea00c7433210d847e6258e39b98ac8a6b69fb13257066367c",
+          "Size": 18317
+        },
+        {
+          "Src": "files/configs/auto_reserves/settings.json",
+          "Path": "auto_reserves/settings.json",
+          "Target": "configs",
+          "KeepUserCopy": true,
+          "Sha256": "e6b25e46cd8a8900099bf7f3f7a7cb426d3a3a6397007035248c5925902460fa",
+          "Size": 277
+        }
+      ]
+    },
+    {
+      "Id": "daily_checkin",
+      "Name": "Напоминание о Табель-календаре",
+      "Author": "PovarMods",
+      "IsPovar": true,
+      "Category": "hangar",
+      "CategoryName": "Ангар",
+      "Version": "1.0.2",
+      "SizeMb": 0.1,
+      "ShortDesc": "Уведомление в ангаре о неполученной суточной награде.",
+      "FullDesc": "Проверяет статус отметки в ежедневном табель-календаре Lesta и вежливо напоминает забрать суточный подарок при входе в игру.",
+      "Features": [
+        "Проверка статуса отметки в календаре при входе в ангар",
+        "Всплывающее уведомление со ссылкой в один клик",
+        "Гарантирует получение всех ежемесячных наград Lesta Games"
+      ],
+      "AuthorUrl": "https://t.me/povar_mods",
+      "Changelog": [],
+      "Requires": [
+        "modslistapi",
+        "modssettingsapi"
+      ],
+      "CleanPatterns": [
+        "povar/*daily*checkin*.mtmod",
+        "povar/*daily*checkin*.pyc"
+      ],
+      "Conflicts": [],
+      "IsNew": false,
+      "IsBroken": false,
+      "BrokenReason": "",
+      "IsVideoTeam": false,
+      "VideoTeamOnly": false,
+      "ScreenshotUrl": "",
+      "ScreenshotSha256": "",
+      "Hidden": false,
+      "Files": [
+        {
+          "Src": "files/mods/povar/povarmods.daily.checkin.helper_1.0.2.mtmod",
+          "Path": "povar/povarmods.daily.checkin.helper_1.0.2.mtmod",
+          "Target": "mods",
+          "KeepUserCopy": false,
+          "Sha256": "16685faadbf1c234efb0eccd89a1affc46ad5facc06f77ac427baaf123067062",
+          "Size": 18732
+        },
+        {
+          "Src": "files/configs/daily_checkin_helper/settings.json",
+          "Path": "daily_checkin_helper/settings.json",
+          "Target": "configs",
+          "KeepUserCopy": true,
+          "Sha256": "fab447bc7dbaa380fcd9596e5e36add0c4f84d0222460c160226da749bbb4461",
+          "Size": 261
+        }
+      ]
+    },
+    {
+      "Id": "hangars",
+      "Name": "Ангары из игровых карт",
+      "Author": "PovarMods",
+      "IsPovar": true,
+      "Category": "hangar",
+      "CategoryName": "Ангар",
+      "Version": "1.9.24",
+      "SizeMb": 159.5,
+      "ShortDesc": "3D-локации боевых карт вместо ангара + 14 пакетов окружения.",
+      "FullDesc": "Позволяет заменить стандартный ангар на трехмерное пространство любой боевой карты Мира танков (Малиновка, Химмельсдорф, Прохоровка и др.). Поддерживает свободную камеру и ротацию карт.",
+      "Features": [
+        "Более 14 локаций боевых карт с реалистичным освещением",
+        "Встроенная свободная камера для осмотра танка со всех ракурсов",
+        "Случайная смена ангара при каждом выходе из боя",
+        "Высокодетализированные текстуры окружения"
+      ],
+      "AuthorUrl": "https://t.me/povar_mods",
+      "Changelog": [],
+      "Requires": [
+        "modslistapi",
+        "hangar_environments"
+      ],
+      "CleanPatterns": [
+        "povar/*hangars*.mtmod",
+        "povar/*hangar*.pyc"
+      ],
+      "Conflicts": [],
+      "IsNew": false,
+      "IsBroken": false,
+      "BrokenReason": "",
+      "IsVideoTeam": true,
+      "VideoTeamOnly": false,
+      "ScreenshotUrl": "screenshots/hangars.jpg",
+      "ScreenshotSha256": "bbfe781bf64a1db194f884ca6cea6cd9c5101928c96620c5ef4aaa562b7f2777",
+      "Hidden": false,
+      "Files": [
+        {
+          "Src": "files/mods/povar/povarmods.hangars_1.9.24.mtmod",
+          "Path": "povar/povarmods.hangars_1.9.24.mtmod",
+          "Target": "mods",
+          "KeepUserCopy": false,
+          "Sha256": "fb9b26f3d2d3ab779d4aa20ea2d65f1caed39990386d3781cba043bf80403dda",
+          "Size": 2650917
+        }
+      ]
+    },
+    {
+      "Id": "armor_inspector",
+      "Name": "Инспектор бронирования",
+      "Author": "PovarMods",
+      "IsPovar": true,
+      "Category": "hangar",
+      "CategoryName": "Ангар",
+      "Version": "1.7.5",
+      "SizeMb": 0.3,
+      "ShortDesc": "3D-модели бронирования и модулей танков прямо в ангаре.",
+      "FullDesc": "Позволяет исследовать бронелисты, внутренние модули и экипаж любой боевой машины без сторонних сайтов и приложений.",
+      "Features": [
+        "3D-коллижн модель бронирования прямо в клиенте игры",
+        "Отображение расположения баков, боеукладки и членов экипажа",
+        "Динамический расчет приведенной толщины под курсором мыши"
+      ],
+      "AuthorUrl": "https://t.me/povar_mods",
+      "Changelog": [],
+      "Requires": [
+        "modslistapi"
+      ],
+      "CleanPatterns": [
+        "povar/*armor*inspector*.mtmod",
+        "povar/*armor*inspector*.pyc"
+      ],
+      "Conflicts": [],
+      "IsNew": false,
+      "IsBroken": false,
+      "BrokenReason": "",
+      "IsVideoTeam": false,
+      "VideoTeamOnly": false,
+      "ScreenshotUrl": "screenshots/armor_inspector.jpg",
+      "ScreenshotSha256": "3f349ff5cb239cfd2b93e17b2e1bae7d8d43b566b2bf119926f24592ad083a86",
+      "Hidden": false,
+      "Files": [
+        {
+          "Src": "files/mods/povar/povarmods.armor_inspector_1.7.5.mtmod",
+          "Path": "povar/povarmods.armor_inspector_1.7.5.mtmod",
+          "Target": "mods",
+          "KeepUserCopy": false,
+          "Sha256": "a1203da560c741ee9bc50aea5cfd45e91de54fe119155ca43a9037a3dc0d74b8",
+          "Size": 337342
+        }
+      ]
+    },
+    {
+      "Id": "ap_calculator",
+      "Name": "Калькулятор бронепробития",
+      "Author": "PovarMods",
+      "IsPovar": true,
+      "Category": "battle",
+      "CategoryName": "В бою",
+      "Version": "1.2.4",
+      "SizeMb": 0.9,
+      "ShortDesc": "Приведенная броня цели, угол встречи и точный расчет шанса пробития.",
+      "FullDesc": "Динамически рассчитывает угол встречи снаряда с броней танка противника с учетом нормализации и рикошета прямо в бою. Показывает точную приведенную толщину брони.",
+      "Features": [
+        "Расчет угла попадания с учетом нормализации калибра снаряда",
+        "Индикатор вероятности пробития (зеленый/оранжевый/красный)",
+        "Учет экранов и гусениц танков противника",
+        "Полная совместимость со стандартным прицелом и кастомными сетками"
+      ],
+      "AuthorUrl": "https://t.me/povar_mods",
+      "Changelog": [],
+      "Requires": [
+        "openwg_gameface"
+      ],
+      "CleanPatterns": [
+        "povar/*ap_calculator*.mtmod",
+        "povar/*ap_calculator*.pyc"
+      ],
+      "Conflicts": [],
+      "IsNew": false,
+      "IsBroken": false,
+      "BrokenReason": "",
+      "IsVideoTeam": false,
+      "VideoTeamOnly": false,
+      "ScreenshotUrl": "",
+      "ScreenshotSha256": "",
+      "Hidden": false,
+      "Files": [
+        {
+          "Src": "files/mods/povar/povarmods.ap_calculator_1.2.4.mtmod",
+          "Path": "povar/povarmods.ap_calculator_1.2.4.mtmod",
+          "Target": "mods",
+          "KeepUserCopy": false,
+          "Sha256": "a1750d444bd744dbf3dd9789835e98ce42b2326b4021ba7690ffd96dc4a5a746",
+          "Size": 989233
+        }
+      ]
+    },
+    {
+      "Id": "sixthsense_hide",
+      "Name": "Быстрое скрытие лампы засвета",
+      "Author": "PovarMods",
+      "IsPovar": true,
+      "Category": "battle",
+      "CategoryName": "В бою",
+      "Version": "1.0.1",
+      "SizeMb": 0.1,
+      "ShortDesc": "Мгновенное скрытие лампы Шестого чувства по таймеру.",
+      "FullDesc": "Скрывает иконку лампочки Шестого чувства сразу после отсчета, не загромождая прицел и боевой обзор.",
+      "Features": [
+        "Исчезновение иконки засвета ровно по окончанию 10-секундного таймера",
+        "Чистый экран в критические моменты дуэли",
+        "Не конфликтует с другими звуковыми модами шестого чувства"
+      ],
+      "AuthorUrl": "https://t.me/povar_mods",
+      "Changelog": [],
+      "Requires": [],
+      "CleanPatterns": [
+        "povar/*sixthsense*.mtmod",
+        "povar/*sixthsense*.pyc"
+      ],
+      "Conflicts": [],
+      "IsNew": false,
+      "IsBroken": false,
+      "BrokenReason": "",
+      "IsVideoTeam": false,
+      "VideoTeamOnly": false,
+      "ScreenshotUrl": "",
+      "ScreenshotSha256": "",
+      "Hidden": false,
+      "Files": [
+        {
+          "Src": "files/mods/povar/povarmods.sixthsense.instanthide_1.0.1.mtmod",
+          "Path": "povar/povarmods.sixthsense.instanthide_1.0.1.mtmod",
+          "Target": "mods",
+          "KeepUserCopy": false,
+          "Sha256": "e7f3fd5bbdf15e984dc89b899602a53cd3b9e7aa93771aa26f9b6611782ae763",
+          "Size": 1617
+        }
+      ]
+    },
+    {
+      "Id": "commander_view",
+      "Name": "Командирская камера",
+      "Author": "PovarMods",
+      "IsPovar": true,
+      "Category": "battle",
+      "CategoryName": "В бою",
+      "Version": "1.0.4",
+      "SizeMb": 0.1,
+      "ShortDesc": "Мгновенное отдаление камеры на высоту птичьего полета.",
+      "FullDesc": "Позволяет отдалять камеру на максимальную тактическую высоту для полного обзора карты за холмами и препятствиями.",
+      "Features": [
+        "Отдаление аркадной камеры до 400 метров",
+        "Отключение блокировки колесика мыши (NoScroll) при переходе в снайперский",
+        "Свободный осмотр препятствий без дерганья камеры"
+      ],
+      "AuthorUrl": "https://t.me/povar_mods",
+      "Changelog": [],
+      "Requires": [
+        "modslistapi",
+        "modssettingsapi"
+      ],
+      "CleanPatterns": [
+        "povar/*commander_view*.mtmod",
+        "povar/*commander_view*.pyc"
+      ],
+      "Conflicts": [],
+      "IsNew": false,
+      "IsBroken": false,
+      "BrokenReason": "",
+      "IsVideoTeam": true,
+      "VideoTeamOnly": false,
+      "ScreenshotUrl": "",
+      "ScreenshotSha256": "",
+      "Hidden": false,
+      "Files": [
+        {
+          "Src": "files/mods/povar/povarmods.commander_view_1.0.4.mtmod",
+          "Path": "povar/povarmods.commander_view_1.0.4.mtmod",
+          "Target": "mods",
+          "KeepUserCopy": false,
+          "Sha256": "a0029a7f26cb23938c77c81b24cd731a6b052512ce27554b66acb36a88a1edfe",
+          "Size": 15848
+        }
+      ]
+    },
+    {
+      "Id": "directives_helper",
+      "Name": "Быстрая комплектация и инструкции",
+      "Author": "PovarMods",
+      "IsPovar": true,
+      "Category": "hangar",
+      "CategoryName": "Ангар",
+      "Version": "1.0.40",
+      "SizeMb": 0.3,
+      "ShortDesc": "Всплывающее окно быстрой смены предбоевых инструкций.",
+      "FullDesc": "Добавляет удобное окно для быстрой смены и закупки предбоевых инструкций, модернизаций и оборудования в один клик без долгих переходов по меню ангара.",
+      "Features": [
+        "Всплывающая компактная панель инструкций экипажа и оборудования",
+        "Автоматическая закупка инструкций при нехватке на складе",
+        "Пресеты комплектации для турниров и Натиска"
+      ],
+      "AuthorUrl": "https://t.me/povar_mods",
+      "Changelog": [],
+      "Requires": [
+        "openwg_gameface",
+        "modslistapi",
+        "modssettingsapi"
+      ],
+      "CleanPatterns": [
+        "povar/*directiveshelper*.mtmod",
+        "povar/*directiveshelper*.pyc"
+      ],
+      "Conflicts": [],
+      "IsNew": false,
+      "IsBroken": false,
+      "BrokenReason": "",
+      "IsVideoTeam": false,
+      "VideoTeamOnly": false,
+      "ScreenshotUrl": "",
+      "ScreenshotSha256": "",
+      "Hidden": false,
+      "Files": [
+        {
+          "Src": "files/mods/povar/povarmods.directiveshelper_1.0.40.mtmod",
+          "Path": "povar/povarmods.directiveshelper_1.0.40.mtmod",
+          "Target": "mods",
+          "KeepUserCopy": false,
+          "Sha256": "34edebe817281f99a7861aba22c0d84b6ebb99b1d26e89b6ee7b33e18587c039",
+          "Size": 354272
+        }
+      ]
+    },
+    {
+      "Id": "foliage_customizer",
+      "Name": "Настройка цвета растительности",
+      "Author": "PovarMods",
+      "IsPovar": true,
+      "Category": "battle",
+      "CategoryName": "В бою",
+      "Version": "1.1.4",
+      "SizeMb": 0.1,
+      "ShortDesc": "Тонкая настройка прозрачности и оттенка листвы деревьев.",
+      "FullDesc": "Позволяет скорректировать видимость силуэтов техники через плотные кусты и кроны деревьев.",
+      "Features": [
+        "Коррекция прозрачности крон в снайперском режиме",
+        "Четкая видимость контуров танков сквозь плотные заросли",
+        "Полностью легальный функционал без отключения листвы"
+      ],
+      "AuthorUrl": "https://t.me/povar_mods",
+      "Changelog": [],
+      "Requires": [
+        "modslistapi",
+        "modssettingsapi"
+      ],
+      "CleanPatterns": [
+        "povar/*foliage_customizer*.mtmod",
+        "povar/*foliage_customizer*.pyc"
+      ],
+      "Conflicts": [],
+      "IsNew": false,
+      "IsBroken": false,
+      "BrokenReason": "",
+      "IsVideoTeam": false,
+      "VideoTeamOnly": false,
+      "ScreenshotUrl": "screenshots/foliage_customizer.jpg",
+      "ScreenshotSha256": "c682cb50607e4405e03475c58c61b467681d93fda72a6ac95bf320755b8350d5",
+      "Hidden": false,
+      "Files": [
+        {
+          "Src": "files/mods/povar/povarmods.foliage_customizer_1.1.4.mtmod",
+          "Path": "povar/povarmods.foliage_customizer_1.1.4.mtmod",
+          "Target": "mods",
+          "KeepUserCopy": false,
+          "Sha256": "dd5e0d711c5bdf816ffe011860886bf2aa7440d8bec8978aeee032f8250ea23f",
+          "Size": 40119
+        }
+      ]
+    },
+    {
+      "Id": "profile_filters",
+      "Name": "Фильтры техники в профиле",
+      "Author": "PovarMods",
+      "IsPovar": true,
+      "Category": "hangar",
+      "CategoryName": "Ангар",
+      "Version": "1.0.1",
+      "SizeMb": 0.1,
+      "ShortDesc": "Удобная сортировка и поиск танков во вкладке «Техника».",
+      "FullDesc": "Добавляет расширенные фильтры по нациям, уровням, типам и отличительным отметкам в профиле достижений игрока.",
+      "Features": [
+        "Фильтрация по числу отметок на стволе (1, 2, 3 отметки)",
+        "Сортировка по проценту побед и среднему урону на танке",
+        "Мгновенный поиск машины по названию"
+      ],
+      "AuthorUrl": "https://t.me/povar_mods",
+      "Changelog": [],
+      "Requires": [],
+      "CleanPatterns": [
+        "povar/*profiletechniquefilters*.mtmod",
+        "povar/*profiletechniquefilters*.pyc"
+      ],
+      "Conflicts": [],
+      "IsNew": false,
+      "IsBroken": false,
+      "BrokenReason": "",
+      "IsVideoTeam": false,
+      "VideoTeamOnly": false,
+      "ScreenshotUrl": "screenshots/profile_filters.jpg",
+      "ScreenshotSha256": "6a47ce92dc8e2f15b18a64ce4ea991b26f977bf473e9603904a20da86c84e60e",
+      "Hidden": false,
+      "Files": [
+        {
+          "Src": "files/mods/povar/povarmods.profiletechniquefilters_1.0.1.mtmod",
+          "Path": "povar/povarmods.profiletechniquefilters_1.0.1.mtmod",
+          "Target": "mods",
+          "KeepUserCopy": false,
+          "Sha256": "20e974f99998204df25db24c14a1a053dda4d7427042cc6403a25d26b75d64a6",
+          "Size": 22066
+        }
+      ]
+    },
+    {
+      "Id": "unanonymizer",
+      "Name": "Раскрытие имен в результатах боя",
+      "Author": "PovarMods",
+      "IsPovar": true,
+      "Category": "hangar",
+      "CategoryName": "Ангар",
+      "Version": "1.5.1",
+      "SizeMb": 0.1,
+      "ShortDesc": "Показывает реальные никнеймы игроков после завершения матча.",
+      "FullDesc": "Отображает настоящие ники игроков, скрывавшихся за игровым анонимайзером, в подробном окне послебоевой статистики.",
+      "Features": [
+        "Раскрытие скрытых анонимайзером никнеймов в послебоевом окне",
+        "Прямые ссылки на статистику игроков в Lesta Games",
+        "Работает строго после окончания матча (без нарушения правил игры)"
+      ],
+      "AuthorUrl": "https://t.me/povar_mods",
+      "Changelog": [],
+      "Requires": [
+        "openwg_gameface"
+      ],
+      "CleanPatterns": [
+        "povar/*unanonymizer*.mtmod",
+        "povar/*unanonymizer*.pyc"
+      ],
+      "Conflicts": [],
+      "IsNew": false,
+      "IsBroken": false,
+      "BrokenReason": "",
+      "IsVideoTeam": false,
+      "VideoTeamOnly": false,
+      "ScreenshotUrl": "",
+      "ScreenshotSha256": "",
+      "Hidden": false,
+      "Files": [
+        {
+          "Src": "files/mods/povar/povarmods.battle_result_unanonymizer_1.5.1.mtmod",
+          "Path": "povar/povarmods.battle_result_unanonymizer_1.5.1.mtmod",
+          "Target": "mods",
+          "KeepUserCopy": false,
+          "Sha256": "6020035759fd10114ec85f622ea1de12ac0fe643c5e2d00b70c7111581f2da15",
+          "Size": 26916
+        }
+      ]
+    },
+    {
+      "Id": "fast_reconnect",
+      "Name": "Быстрое переподключение к бою",
+      "Author": "PovarMods",
+      "IsPovar": true,
+      "Category": "battle",
+      "CategoryName": "В бою",
+      "Version": "1.0.0",
+      "SizeMb": 0.1,
+      "ShortDesc": "Мгновенный вход в идущий бой при вылетах без перезапуска клиента.",
+      "FullDesc": "Позволяет за считанные секунды восстановить разорванную связь с сервером без ожидания полной загрузки ангара.",
+      "Features": [
+        "Мгновенный перезаход в бой при дисконнекте по кнопке",
+        "Пропуск долгой инициализации ангара при загрузке",
+        "Спасает технику от уничтожения в критический момент боя"
+      ],
+      "AuthorUrl": "https://t.me/povar_mods",
+      "Changelog": [],
+      "Requires": [],
+      "CleanPatterns": [
+        "povar/*fast_reconnect*.mtmod",
+        "povar/*fast_reconnect*.pyc"
+      ],
+      "Conflicts": [],
+      "IsNew": false,
+      "IsBroken": false,
+      "BrokenReason": "",
+      "IsVideoTeam": false,
+      "VideoTeamOnly": false,
+      "ScreenshotUrl": "",
+      "ScreenshotSha256": "",
+      "Hidden": false,
+      "Files": [
+        {
+          "Src": "files/mods/povar/povarmods.fast_reconnect_1.0.0.mtmod",
+          "Path": "povar/povarmods.fast_reconnect_1.0.0.mtmod",
+          "Target": "mods",
+          "KeepUserCopy": false,
+          "Sha256": "7944b146a15bd4da4b1021a7848a79193694407c5aa0dfb91bcfd5fa5763250b",
+          "Size": 1929
+        }
+      ]
+    },
+    {
+      "Id": "spotted_extended",
+      "Name": "Индикатор урона по разведданным",
+      "Author": "spoter",
+      "IsPovar": false,
+      "Category": "battle",
+      "CategoryName": "В бою",
+      "Version": "4.18",
+      "SizeMb": 0.1,
+      "ShortDesc": "Всплывающий счетчик урона союзников по вашему засвету.",
+      "FullDesc": "Отображает всплывающие сообщения и сумму чистого урона по вашим разведданным в реальном времени во время боя.",
+      "Features": [
+        "Всплывающее оповещение о нанесении урона союзниками по вашему засвету",
+        "Точный подсчет чистого ассиста для выполнения ЛБЗ",
+        "Настройка расположения счетчика на экране"
+      ],
+      "AuthorUrl": "https://koreanrandom.com/forum/topic/28020-%D0%B8%D1%81%D1%85%D0%BE%D0%B4%D0%BD%D0%B8%D0%BA%D0%B8-%D0%BC%D0%BE%D0%B4%D0%BE%D0%B2-spotera-%D0%BD%D0%B0-github/",
+      "Changelog": [],
+      "Requires": [
+        "modslistapi",
+        "guiflash",
+        "mods_gui"
+      ],
+      "CleanPatterns": [
+        "spoter/*spotted_extended*.mtmod"
+      ],
+      "Conflicts": [],
+      "IsNew": false,
+      "IsBroken": false,
+      "BrokenReason": "",
+      "IsVideoTeam": false,
+      "VideoTeamOnly": false,
+      "ScreenshotUrl": "",
+      "ScreenshotSha256": "",
+      "Hidden": false,
+      "Files": [
+        {
+          "Src": "files/mods/spoter/mod_spotted_extended_light_4.18.mtmod",
+          "Path": "spoter/mod_spotted_extended_light_4.18.mtmod",
+          "Target": "mods",
+          "KeepUserCopy": false,
+          "Sha256": "34766bdd416ca07bb8abdc0892fc6a0f112c9c1e3128925efc94e9f896137949",
+          "Size": 13475
+        },
+        {
+          "Src": "files/configs/spoter/spotted_extended_light/spotted_extended_light.json",
+          "Path": "spoter/spotted_extended_light/spotted_extended_light.json",
+          "Target": "configs",
+          "KeepUserCopy": true,
+          "Sha256": "c593443cfc90401d2e76ecdbd9cdab5d4ee938dee9e43a0d6bbbd06fbc03da54",
+          "Size": 518
+        },
+        {
+          "Src": "files/configs/spoter/spotted_extended_light/i18n/bg.json",
+          "Path": "spoter/spotted_extended_light/i18n/bg.json",
+          "Target": "configs",
+          "KeepUserCopy": true,
+          "Sha256": "10a9bbbc1d42ce8a4303492e5733bd1bee984c1521f9cbd4218a5c999cae3d69",
+          "Size": 3390
+        },
+        {
+          "Src": "files/configs/spoter/spotted_extended_light/i18n/cs.json",
+          "Path": "spoter/spotted_extended_light/i18n/cs.json",
+          "Target": "configs",
+          "KeepUserCopy": true,
+          "Sha256": "05e1bed58153bdd754fe09f7cef06d63b2a327da663238ce049c25372573a990",
+          "Size": 2744
+        },
+        {
+          "Src": "files/configs/spoter/spotted_extended_light/i18n/da.json",
+          "Path": "spoter/spotted_extended_light/i18n/da.json",
+          "Target": "configs",
+          "KeepUserCopy": true,
+          "Sha256": "f45fd2ca0fe680e36fe3e70bd8e9ab1bbd3ddd2aa984fd31e7b1b3e1146adfa4",
+          "Size": 2637
+        },
+        {
+          "Src": "files/configs/spoter/spotted_extended_light/i18n/de.json",
+          "Path": "spoter/spotted_extended_light/i18n/de.json",
+          "Target": "configs",
+          "KeepUserCopy": true,
+          "Sha256": "ba531dfdf0cea6638c370ab68302e77a343c5ae5a8842e57d360e0c20f010988",
+          "Size": 2781
+        },
+        {
+          "Src": "files/configs/spoter/spotted_extended_light/i18n/el.json",
+          "Path": "spoter/spotted_extended_light/i18n/el.json",
+          "Target": "configs",
+          "KeepUserCopy": true,
+          "Sha256": "69a9c2fa3132bb80c95c395812b17a49c413e052db378a73d4d421cd2dc5136b",
+          "Size": 3449
+        },
+        {
+          "Src": "files/configs/spoter/spotted_extended_light/i18n/en.json",
+          "Path": "spoter/spotted_extended_light/i18n/en.json",
+          "Target": "configs",
+          "KeepUserCopy": true,
+          "Sha256": "6ca621ff15a1dd04c7703d30fe19467300676250644c7073a67a026807e2aaed",
+          "Size": 2566
+        },
+        {
+          "Src": "files/configs/spoter/spotted_extended_light/i18n/es.json",
+          "Path": "spoter/spotted_extended_light/i18n/es.json",
+          "Target": "configs",
+          "KeepUserCopy": true,
+          "Sha256": "45cf5c40753a4808ef57db818f41e04b6ae40d14cceb990e2871ac9afb257839",
+          "Size": 2915
+        },
+        {
+          "Src": "files/configs/spoter/spotted_extended_light/i18n/es_ar.json",
+          "Path": "spoter/spotted_extended_light/i18n/es_ar.json",
+          "Target": "configs",
+          "KeepUserCopy": true,
+          "Sha256": "90af001c4622b187d8ac99b350d8ec21302d1356c06b52f83fe85a1443f22e38",
+          "Size": 2917
+        },
+        {
+          "Src": "files/configs/spoter/spotted_extended_light/i18n/fi.json",
+          "Path": "spoter/spotted_extended_light/i18n/fi.json",
+          "Target": "configs",
+          "KeepUserCopy": true,
+          "Sha256": "5d79df03d3fa79e3a9c730f147350220f083d71d9527176b8486ca32ab53633f",
+          "Size": 2621
+        },
+        {
+          "Src": "files/configs/spoter/spotted_extended_light/i18n/fr.json",
+          "Path": "spoter/spotted_extended_light/i18n/fr.json",
+          "Target": "configs",
+          "KeepUserCopy": true,
+          "Sha256": "49868e4223a014f5eaaa34ef35ba00398b80255ed5aa2b348dad90861ed123cc",
+          "Size": 2906
+        },
+        {
+          "Src": "files/configs/spoter/spotted_extended_light/i18n/hr.json",
+          "Path": "spoter/spotted_extended_light/i18n/hr.json",
+          "Target": "configs",
+          "KeepUserCopy": true,
+          "Sha256": "c911d0a85b16d4ee965e5a48e18788e4dfa946286f40c87c9a923999d8b49157",
+          "Size": 2701
+        },
+        {
+          "Src": "files/configs/spoter/spotted_extended_light/i18n/hu.json",
+          "Path": "spoter/spotted_extended_light/i18n/hu.json",
+          "Target": "configs",
+          "KeepUserCopy": true,
+          "Sha256": "a3fe5695ed0f60dcc3e4080e207b4c1293d67c3f61f37bad596cf8bd0116f93d",
+          "Size": 2830
+        },
+        {
+          "Src": "files/configs/spoter/spotted_extended_light/i18n/it.json",
+          "Path": "spoter/spotted_extended_light/i18n/it.json",
+          "Target": "configs",
+          "KeepUserCopy": true,
+          "Sha256": "17f62a4729a0a10f77364d57666449e7783df12ae95a7a364b5f16c8a0832e5e",
+          "Size": 2884
+        },
+        {
+          "Src": "files/configs/spoter/spotted_extended_light/i18n/ja.json",
+          "Path": "spoter/spotted_extended_light/i18n/ja.json",
+          "Target": "configs",
+          "KeepUserCopy": true,
+          "Sha256": "1c1aff986017e226fc84945522c0694054de23eae8c79c2997808144f9b9da48",
+          "Size": 2765
+        },
+        {
+          "Src": "files/configs/spoter/spotted_extended_light/i18n/ko.json",
+          "Path": "spoter/spotted_extended_light/i18n/ko.json",
+          "Target": "configs",
+          "KeepUserCopy": true,
+          "Sha256": "a3646c4e70507f5213db4539aef254e52c773918528542f5e97e0be388988889",
+          "Size": 2675
+        },
+        {
+          "Src": "files/configs/spoter/spotted_extended_light/i18n/lt.json",
+          "Path": "spoter/spotted_extended_light/i18n/lt.json",
+          "Target": "configs",
+          "KeepUserCopy": true,
+          "Sha256": "02f166912f311583d3a3cf4660cdcc51445f73e97746690854c913f22060e518",
+          "Size": 2803
+        },
+        {
+          "Src": "files/configs/spoter/spotted_extended_light/i18n/lv.json",
+          "Path": "spoter/spotted_extended_light/i18n/lv.json",
+          "Target": "configs",
+          "KeepUserCopy": true,
+          "Sha256": "dff68c430559f7de7d5d6d5a36e74403a796863f671721c10de936616045fa0d",
+          "Size": 2843
+        },
+        {
+          "Src": "files/configs/spoter/spotted_extended_light/i18n/nl.json",
+          "Path": "spoter/spotted_extended_light/i18n/nl.json",
+          "Target": "configs",
+          "KeepUserCopy": true,
+          "Sha256": "a37b430763d1a1ad28ddc0dd552d67d6cb12ef1af970ab7ea88053d85029b37d",
+          "Size": 2740
+        },
+        {
+          "Src": "files/configs/spoter/spotted_extended_light/i18n/no.json",
+          "Path": "spoter/spotted_extended_light/i18n/no.json",
+          "Target": "configs",
+          "KeepUserCopy": true,
+          "Sha256": "f130509cbbbe548dc98fba9682d2e5e19febbf0839b21334ce92bf35b5beb07b",
+          "Size": 2660
+        },
+        {
+          "Src": "files/configs/spoter/spotted_extended_light/i18n/pl.json",
+          "Path": "spoter/spotted_extended_light/i18n/pl.json",
+          "Target": "configs",
+          "KeepUserCopy": true,
+          "Sha256": "6d149406f10cc98710246e7f989b97470c9c6d191d091c8916e23e6260b97070",
+          "Size": 2801
+        },
+        {
+          "Src": "files/configs/spoter/spotted_extended_light/i18n/pt.json",
+          "Path": "spoter/spotted_extended_light/i18n/pt.json",
+          "Target": "configs",
+          "KeepUserCopy": true,
+          "Sha256": "57b39ad36c9fe78915edf585c7ac1ce968d1600e5ca3649e1f3cc2405803c94d",
+          "Size": 2909
+        },
+        {
+          "Src": "files/configs/spoter/spotted_extended_light/i18n/pt_br.json",
+          "Path": "spoter/spotted_extended_light/i18n/pt_br.json",
+          "Target": "configs",
+          "KeepUserCopy": true,
+          "Sha256": "2da0b3a301685243870dde343872c1c2e7606b49381275c70e82455277d9203f",
+          "Size": 2825
+        },
+        {
+          "Src": "files/configs/spoter/spotted_extended_light/i18n/ro.json",
+          "Path": "spoter/spotted_extended_light/i18n/ro.json",
+          "Target": "configs",
+          "KeepUserCopy": true,
+          "Sha256": "c8a803005f9b91cb6f587ee4febf042f0876a033708ee1516955b036e0584fdb",
+          "Size": 2802
+        },
+        {
+          "Src": "files/configs/spoter/spotted_extended_light/i18n/ru.json",
+          "Path": "spoter/spotted_extended_light/i18n/ru.json",
+          "Target": "configs",
+          "KeepUserCopy": true,
+          "Sha256": "52749deb4e97b40eadff5cd651371cd4ce0f7a7e8ccae6b235d17823b6c36114",
+          "Size": 3357
+        },
+        {
+          "Src": "files/configs/spoter/spotted_extended_light/i18n/sr.json",
+          "Path": "spoter/spotted_extended_light/i18n/sr.json",
+          "Target": "configs",
+          "KeepUserCopy": true,
+          "Sha256": "aa34dd6031646c53995b43fa1a70e055b74432d0c2aac68ffc09c263eac81223",
+          "Size": 2790
+        },
+        {
+          "Src": "files/configs/spoter/spotted_extended_light/i18n/sv.json",
+          "Path": "spoter/spotted_extended_light/i18n/sv.json",
+          "Target": "configs",
+          "KeepUserCopy": true,
+          "Sha256": "12315cc4bd2eefd33ea600c281aa7495ca0e72790cad80fe1bb4ef8ee10ae597",
+          "Size": 2678
+        },
+        {
+          "Src": "files/configs/spoter/spotted_extended_light/i18n/th.json",
+          "Path": "spoter/spotted_extended_light/i18n/th.json",
+          "Target": "configs",
+          "KeepUserCopy": true,
+          "Sha256": "6ac95b1e04c7e6927184254e3c22f5f572897f1a35f573ce1317595604db735d",
+          "Size": 3757
+        },
+        {
+          "Src": "files/configs/spoter/spotted_extended_light/i18n/tr.json",
+          "Path": "spoter/spotted_extended_light/i18n/tr.json",
+          "Target": "configs",
+          "KeepUserCopy": true,
+          "Sha256": "525faa3186fed731a246306079fd67213dee79fd74816b556c4569f4afe30f45",
+          "Size": 2687
+        },
+        {
+          "Src": "files/configs/spoter/spotted_extended_light/i18n/uk.json",
+          "Path": "spoter/spotted_extended_light/i18n/uk.json",
+          "Target": "configs",
+          "KeepUserCopy": true,
+          "Sha256": "e1bb9738f5e05e84afc32de2c14607848f3055c67892d4447720cfabfc46819c",
+          "Size": 3525
+        },
+        {
+          "Src": "files/configs/spoter/spotted_extended_light/i18n/vi.json",
+          "Path": "spoter/spotted_extended_light/i18n/vi.json",
+          "Target": "configs",
+          "KeepUserCopy": true,
+          "Sha256": "51ac8e75fb657ae27a0526a0605b6cdc488f5a27bac438d8ce0d1937a95df303",
+          "Size": 2915
+        },
+        {
+          "Src": "files/configs/spoter/spotted_extended_light/i18n/zh_cn.json",
+          "Path": "spoter/spotted_extended_light/i18n/zh_cn.json",
+          "Target": "configs",
+          "KeepUserCopy": true,
+          "Sha256": "976a279895a6c5fa92a1b118dc38df4e36857da1f3ec3c9ef4bfd04c3d974dcf",
+          "Size": 2551
+        },
+        {
+          "Src": "files/configs/spoter/spotted_extended_light/i18n/zh_sg.json",
+          "Path": "spoter/spotted_extended_light/i18n/zh_sg.json",
+          "Target": "configs",
+          "KeepUserCopy": true,
+          "Sha256": "18dc386e727d35574cd8cee9395a07858925511e04bbe89061b47b1dfe696d96",
+          "Size": 2551
+        },
+        {
+          "Src": "files/configs/spoter/spotted_extended_light/i18n/zh_tw.json",
+          "Path": "spoter/spotted_extended_light/i18n/zh_tw.json",
+          "Target": "configs",
+          "KeepUserCopy": true,
+          "Sha256": "5ffc0724a9d22827ef59a56624678683281645ebb544e44df9e6e60236a1eec6",
+          "Size": 2567
+        }
+      ]
+    },
+    {
+      "Id": "safeshot",
+      "Name": "Блокировка случайной стрельбы",
+      "Author": "SafeShot",
+      "IsPovar": false,
+      "Category": "battle",
+      "CategoryName": "В бою",
+      "Version": "1.0.0",
+      "SizeMb": 0.1,
+      "ShortDesc": "Блокирует случайный выстрел по союзникам и остовам танков.",
+      "FullDesc": "Защищает от штрафов и случайной траты снарядов при пересечении линии огня союзными машинами или попадании в подбитый остов.",
+      "Features": [
+        "Защита от случайного клика по союзной технике",
+        "Блокировка стрельбы в уничтоженные остовы танков",
+        "Снятие блокировки удержанием клавиши Alt"
+      ],
+      "AuthorUrl": "https://protanki.tv/ru",
+      "Changelog": [],
+      "Requires": [],
+      "CleanPatterns": [
+        "*safeshot*.mtmod"
+      ],
+      "Conflicts": [],
+      "IsNew": false,
+      "IsBroken": false,
+      "BrokenReason": "",
+      "IsVideoTeam": false,
+      "VideoTeamOnly": false,
+      "ScreenshotUrl": "",
+      "ScreenshotSha256": "",
+      "Hidden": false,
+      "Files": [
+        {
+          "Src": "files/mods/safeshot.mtmod",
+          "Path": "safeshot.mtmod",
+          "Target": "mods",
+          "KeepUserCopy": false,
+          "Sha256": "0c8e507584903113da9cd7568204ec9326c8c50bdbe14c1dc39541a450e1a177",
+          "Size": 42105
+        },
+        {
+          "Src": "files/configs/safeshot/SafeShot.xml",
+          "Path": "safeshot/SafeShot.xml",
+          "Target": "configs",
+          "KeepUserCopy": true,
+          "Sha256": "85dd9661851e740d112ebb083fabdda3d9af37ea141a29be87b3b78caa0ba2c7",
+          "Size": 1670
+        }
+      ]
+    },
+    {
+      "Id": "enemy_announcer",
+      "Name": "Светофор — индикатор опасности",
+      "Author": "ProTanki",
+      "IsPovar": false,
+      "Category": "battle",
+      "CategoryName": "В бою",
+      "Version": "3.4.08",
+      "SizeMb": 0.3,
+      "ShortDesc": "Цветное оповещение о наведении противника на ваш танк.",
+      "FullDesc": "Отображает цветной световой индикатор опасности (зеленый/желтый/красный) и звуковой сигнал при наведении орудия вражеской техники на ваш танк.",
+      "Features": [
+        "Цветной индикатор статуса наведения орудий противников",
+        "Звуковое предупреждение при прямой угрозе выстрела в борт/корму",
+        "Индивидуальная калибровка задержки срабатывания"
+      ],
+      "AuthorUrl": "https://protanki.tv/ru",
+      "Changelog": [],
+      "Requires": [],
+      "CleanPatterns": [
+        "*enemyannouncer*.mtmod"
+      ],
+      "Conflicts": [],
+      "IsNew": false,
+      "IsBroken": false,
+      "BrokenReason": "",
+      "IsVideoTeam": false,
+      "VideoTeamOnly": false,
+      "ScreenshotUrl": "",
+      "ScreenshotSha256": "",
+      "Hidden": false,
+      "Files": [
+        {
+          "Src": "files/mods/tv.protanki.enemyannouncer_3.4.08.mtmod",
+          "Path": "tv.protanki.enemyannouncer_3.4.08.mtmod",
+          "Target": "mods",
+          "KeepUserCopy": false,
+          "Sha256": "ad055a8ec1eb46be6d0690a82fcb1d12effa0bca7ca1ab76e66ea0cdd029f2d5",
+          "Size": 345972
+        },
+        {
+          "Src": "files/configs/protanki/enemyAnnouncer.json",
+          "Path": "protanki/enemyAnnouncer.json",
+          "Target": "configs",
+          "KeepUserCopy": true,
+          "Sha256": "81b713756f15829de0b8d0321bf54369b1e597ea38e9b38ba481984ad6a2daba",
+          "Size": 479
+        }
+      ]
+    },
+    {
+      "Id": "quick_demount",
+      "Name": "Быстрый демонтаж оборудования",
+      "Author": "panikaxa",
+      "IsPovar": false,
+      "Category": "hangar",
+      "CategoryName": "Ангар",
+      "Version": "2.2.0",
+      "SizeMb": 0.1,
+      "ShortDesc": "Снятие съемного оборудования и смена модернизаций в один клик.",
+      "FullDesc": "Удобный интерфейс в окне комплектации для мгновенного снятия съемного оборудования и перестановки на другой танк.",
+      "Features": [
+        "Снятие маскировочной сети, рогов и ремкомплекта в один клик",
+        "Автоматическая перестановка оборудования на активную машину",
+        "Экономия миллионов кредитов на закупку повторных комплектов"
+      ],
+      "AuthorUrl": "https://koreanrandom.com/forum/topic/84962-%D0%BB%D0%B5%D1%81%D1%82%D0%B0-14500-wot-2213-quick-demount-20-%D0%B1%D1%8B%D1%81%D1%82%D1%80%D1%8B%D0%B9-%D0%B4%D0%B5%D0%BC%D0%BE%D0%BD%D1%82%D0%B0%D0%B6-%D0%BE%D0%B1%D0%BE%D1%80%D1%83%D0%B4%D0%BE%D0%B2%D0%B0%D0%BD%D0%B8%D1%8F-20/",
+      "Changelog": [],
+      "Requires": [],
+      "CleanPatterns": [
+        "*quick_demount*.mtmod"
+      ],
+      "Conflicts": [],
+      "IsNew": false,
+      "IsBroken": false,
+      "BrokenReason": "",
+      "IsVideoTeam": false,
+      "VideoTeamOnly": false,
+      "ScreenshotUrl": "",
+      "ScreenshotSha256": "",
+      "Hidden": false,
+      "Files": [
+        {
+          "Src": "files/mods/panikaxa.quick_demount_2.2.0.mtmod",
+          "Path": "panikaxa.quick_demount_2.2.0.mtmod",
+          "Target": "mods",
+          "KeepUserCopy": false,
+          "Sha256": "d7af39300b5f44d3015b3a9d3568acb666d5040e14dc3da0eb38ba84ab2dd712",
+          "Size": 148981
+        }
+      ]
+    },
+    {
+      "Id": "gun_constraints",
+      "Name": "Углы горизонтальной наводки (УГН)",
+      "Author": "phantasm",
+      "IsPovar": false,
+      "Category": "battle",
+      "CategoryName": "В бою",
+      "Version": "1.0.0",
+      "SizeMb": 0.1,
+      "ShortDesc": "Маркеры углов поворота орудия для ПТ-САУ и артиллерии.",
+      "FullDesc": "Четкие визуальные скобки УГН вокруг прицела, помогающие не сорвать маскировку и сведение орудия при выходе за пределы сектора.",
+      "Features": [
+        "Четкие визуальные скобки пределов поворота ствола",
+        "Предотвращение сброса маскировочной сети и сведения",
+        "Несколько стилей маркеров на выбор в конфиге"
+      ],
+      "AuthorUrl": "https://koreanrandom.com/forum/profile/9961-phantasm/",
+      "Changelog": [],
+      "Requires": [],
+      "CleanPatterns": [
+        "*gunconstraints*.mtmod"
+      ],
+      "Conflicts": [],
+      "IsNew": false,
+      "IsBroken": false,
+      "BrokenReason": "",
+      "IsVideoTeam": false,
+      "VideoTeamOnly": false,
+      "ScreenshotUrl": "",
+      "ScreenshotSha256": "",
+      "Hidden": false,
+      "Files": [
+        {
+          "Src": "files/mods/phantasm.gunconstraints.mtmod",
+          "Path": "phantasm.gunconstraints.mtmod",
+          "Target": "mods",
+          "KeepUserCopy": false,
+          "Sha256": "58408469be66bc49a041aa5a929cc74c63a5fc08c1fe14c0f6a3fac5003db64c",
+          "Size": 73531
+        }
+      ]
+    },
+    {
+      "Id": "remove_fog",
+      "Name": "Отключение тумана на картах",
+      "Author": "nidin",
+      "IsPovar": false,
+      "Category": "battle",
+      "CategoryName": "В бою",
+      "Version": "1.0.0",
+      "SizeMb": 1.0,
+      "ShortDesc": "Убирает атмосферную дымку, делая картинку четкой и повышая FPS.",
+      "FullDesc": "Полностью отключает эффект мутной серой дымки на дальних дистанциях боевых карт. Танки врагов становятся четко различимы на любом расстоянии.",
+      "Features": [
+        "Полная прозрачность атмосферы на любых дистанциях боя",
+        "Повышение частоты кадров (FPS) на слабых компьютерах",
+        "Кристальная четкость силуэтов вражеских машин"
+      ],
+      "AuthorUrl": "https://forum.tanki.su/topic/2205466-14600-%D0%BC%D0%BE%D0%B4%D0%B8%D1%84%D0%B8%D0%BA%D0%B0%D1%86%D0%B8%D1%8F-%D0%BF%D1%83%D1%81%D1%82%D1%8C-%D0%B2%D1%81%D0%B5%D0%B3%D0%B4%D0%B0-%D0%B1%D1%83%D0%B4%D0%B5%D1%82-%D1%81%D0%BE%D0%BB%D0%BD%D1%86%D0%B5/",
+      "Changelog": [],
+      "Requires": [],
+      "CleanPatterns": [
+        "*remove_fog*.mtmod"
+      ],
+      "Conflicts": [],
+      "IsNew": false,
+      "IsBroken": false,
+      "BrokenReason": "",
+      "IsVideoTeam": false,
+      "VideoTeamOnly": false,
+      "ScreenshotUrl": "",
+      "ScreenshotSha256": "",
+      "Hidden": false,
+      "Files": [
+        {
+          "Src": "files/mods/remove_fog.mtmod",
+          "Path": "remove_fog.mtmod",
+          "Target": "mods",
+          "KeepUserCopy": false,
+          "Sha256": "f140f927dcd6e9e7395945e85ceaa6490a29252e5522c37858ddc4709e526d74",
+          "Size": 1036816
+        }
+      ]
+    },
+    {
+      "Id": "control_settings",
+      "Name": "Улучшенные настройки управления",
+      "Author": "nidin",
+      "IsPovar": false,
+      "Category": "hangar",
+      "CategoryName": "Ангар",
+      "Version": "1.0.12",
+      "SizeMb": 0.1,
+      "ShortDesc": "Дополнительные опции мыши, чувствительности и привязки клавиш.",
+      "FullDesc": "Расширяет стандартное меню настроек игры, позволяя тонко калибровать чувствительность в снайперском режиме и отдельные комбинации клавиш.",
+      "Features": [
+        "Раздельная настройка чувствительности мыши для каждого зума",
+        "Кастомная кривая ускорения курсора",
+        "Привязка дополнительных кнопок мыши и макросов"
+      ],
+      "AuthorUrl": "https://github.com/xNIDINx/improved-control-settings",
+      "Changelog": [],
+      "Requires": [
+        "modssettingsapi"
+      ],
+      "CleanPatterns": [
+        "*improved_control_settings*.mtmod"
+      ],
+      "Conflicts": [],
+      "IsNew": false,
+      "IsBroken": false,
+      "BrokenReason": "",
+      "IsVideoTeam": false,
+      "VideoTeamOnly": false,
+      "ScreenshotUrl": "screenshots/control_settings.jpg",
+      "ScreenshotSha256": "41f1a5bd1d69452f696bda294cbaaaba6a37523b9cb7442c7bc81408f6548bcf",
+      "Hidden": false,
+      "Files": [
+        {
+          "Src": "files/mods/nidin.improved_control_settings_1.0.12.mtmod",
+          "Path": "nidin.improved_control_settings_1.0.12.mtmod",
+          "Target": "mods",
+          "KeepUserCopy": false,
+          "Sha256": "7378695bebf5aa25361bac955065e6010635ed029e32b1853fac401b774b45c9",
+          "Size": 29086
+        }
+      ]
+    },
+    {
+      "Id": "style_filters",
+      "Name": "Дополнительные фильтры стилей",
+      "Author": "panikaxa",
+      "IsPovar": false,
+      "Category": "hangar",
+      "CategoryName": "Ангар",
+      "Version": "1.2.3",
+      "SizeMb": 0.2,
+      "ShortDesc": "Удобный поиск и сортировка камуфляжей и 2D/3D стилей во внешнем виде.",
+      "FullDesc": "Добавляет категории (историчные, неисторичные, готовые 3D-стили, арендованные элементы) в меню кастомизации техники.",
+      "Features": [
+        "Фильтрация по историчности и типу камуфляжа",
+        "Разделение на постоянные и временные (арендные) стили",
+        "Быстрый поиск по названию стиля"
+      ],
+      "AuthorUrl": "https://koreanrandom.com/forum/topic/85257-%D0%BB%D0%B5%D1%81%D1%82%D0%B0-14500-wot-2213-extra-style-filters-%D0%B4%D0%BE%D0%BF%D0%BE%D0%BB%D0%BD%D0%B8%D1%82%D0%B5%D0%BB%D1%8C%D0%BD%D1%8B%D0%B5-%D1%84%D0%B8%D0%BB%D1%8C%D1%82%D1%80%D1%8B-%D1%81%D1%82%D0%B8%D0%BB%D0%B5%D0%B9/",
+      "Changelog": [],
+      "Requires": [
+        "openwg_gameface"
+      ],
+      "CleanPatterns": [
+        "*extra_style_filters*.mtmod"
+      ],
+      "Conflicts": [],
+      "IsNew": false,
+      "IsBroken": false,
+      "BrokenReason": "",
+      "IsVideoTeam": false,
+      "VideoTeamOnly": false,
+      "ScreenshotUrl": "",
+      "ScreenshotSha256": "",
+      "Hidden": false,
+      "Files": [
+        {
+          "Src": "files/mods/panikaxa.lesta.extra_style_filters_1.2.3.mtmod",
+          "Path": "panikaxa.lesta.extra_style_filters_1.2.3.mtmod",
+          "Target": "mods",
+          "KeepUserCopy": false,
+          "Sha256": "e7f2ec0ce66595c12afcecc18fc9a6b393351489b43df5d949f931e1e5708cf1",
+          "Size": 235003
+        }
+      ]
+    },
+    {
+      "Id": "responsive_reticle",
+      "Name": "Отзывчивый прицел",
+      "Author": "pruszko",
+      "IsPovar": false,
+      "Category": "battle",
+      "CategoryName": "В бою",
+      "Version": "1.0.12",
+      "SizeMb": 0.1,
+      "ShortDesc": "Устранение задержки сведения маркера при резких поворотах башни.",
+      "FullDesc": "Оптимизирует обработку тиков сведения прицела клиентом, обеспечивая более плавное и предсказуемое поведение маркера.",
+      "Features": [
+        "Плавное интерполированное движение маркера орудия",
+        "Устранение микрорывков серверного сведения при высоком пинге",
+        "Повышение точности выстрелов на ходу"
+      ],
+      "AuthorUrl": "https://github.com/Pruszko/ResponsiveReticle",
+      "Changelog": [],
+      "Requires": [],
+      "CleanPatterns": [
+        "*responsive_reticle*.mtmod"
+      ],
+      "Conflicts": [],
+      "IsNew": false,
+      "IsBroken": false,
+      "BrokenReason": "",
+      "IsVideoTeam": false,
+      "VideoTeamOnly": false,
+      "ScreenshotUrl": "screenshots/responsive_reticle.jpg",
+      "ScreenshotSha256": "50c926f03dd3a3bdb6f6879883664abf88fb3ad4305c322e27ce4fa346d7a394",
+      "Hidden": false,
+      "Files": [
+        {
+          "Src": "files/mods/pruszko.responsive_reticle_1.0.12.mtmod",
+          "Path": "pruszko.responsive_reticle_1.0.12.mtmod",
+          "Target": "mods",
+          "KeepUserCopy": false,
+          "Sha256": "97586a5ecaa389a130e48fdef1c32985527de152e312725737d78e73a3156ddd",
+          "Size": 21338
+        }
+      ]
+    },
+    {
+      "Id": "server_list",
+      "Name": "Улучшенный список серверов",
+      "Author": "nidin",
+      "IsPovar": false,
+      "Category": "hangar",
+      "CategoryName": "Ангар",
+      "Version": "1.0.2",
+      "SizeMb": 0.2,
+      "ShortDesc": "Отображение пинга и онлайна RU-кластеров прямо в ангаре.",
+      "FullDesc": "Показывает актуальный пинг и численность игроков на всех серверах Lesta прямо в выпадающем меню выбора сервера.",
+      "Features": [
+        "Актуальный пинг до серверов прямо в окне ангара",
+        "Количество игроков онлайн на каждом сервере",
+        "Цветовая индикация качества связи"
+      ],
+      "AuthorUrl": "https://github.com/xNIDINx/improved-server-list",
+      "Changelog": [],
+      "Requires": [
+        "modssettingsapi",
+        "modslistapi"
+      ],
+      "CleanPatterns": [
+        "*improved_server_list*.mtmod"
+      ],
+      "Conflicts": [],
+      "IsNew": false,
+      "IsBroken": false,
+      "BrokenReason": "",
+      "IsVideoTeam": false,
+      "VideoTeamOnly": false,
+      "ScreenshotUrl": "screenshots/server_list.jpg",
+      "ScreenshotSha256": "f03ac75a2b946af0650407d523178d48cc2ace7a217ff6e722fdeb7eeb4f00ef",
+      "Hidden": false,
+      "Files": [
+        {
+          "Src": "files/mods/nidin.improved_server_list_1.0.2.mtmod",
+          "Path": "nidin.improved_server_list_1.0.2.mtmod",
+          "Target": "mods",
+          "KeepUserCopy": false,
+          "Sha256": "8761e264762cc8676667c607369a3263ac7ca4bb3d0f84c7b8714c8dad71d199",
+          "Size": 191551
+        }
+      ]
+    },
+    {
+      "Id": "damage_stickers",
+      "Name": "Цветные отметки попаданий",
+      "Author": "spoter",
+      "IsPovar": false,
+      "Category": "battle",
+      "CategoryName": "В бою",
+      "Version": "1.0.0",
+      "SizeMb": 0.2,
+      "ShortDesc": "Контрастные декали пробитий (зеленые) и рикошетов (красные).",
+      "FullDesc": "Заменяет серые неразборчивые декали попаданий на яркие цветные метки для мгновенного анализа брони и уязвимых зон в бою.",
+      "Features": [
+        "Яркие зеленые маркеры в местах пробития вашей брони",
+        "Красные маркеры непробитий и рикошетов",
+        "Мгновенный анализ уязвимых зон танка прямо в перестрелке"
+      ],
+      "AuthorUrl": "https://protanki.tv/ru/mods/tsvetnye-otmetki-popadanii",
+      "Changelog": [],
+      "Requires": [],
+      "CleanPatterns": [
+        "*damage_stickers*.mtmod"
+      ],
+      "Conflicts": [],
+      "IsNew": false,
+      "IsBroken": false,
+      "BrokenReason": "",
+      "IsVideoTeam": false,
+      "VideoTeamOnly": false,
+      "ScreenshotUrl": "",
+      "ScreenshotSha256": "",
+      "Hidden": false,
+      "Files": [
+        {
+          "Src": "files/mods/damage_stickers.mtmod",
+          "Path": "damage_stickers.mtmod",
+          "Target": "mods",
+          "KeepUserCopy": false,
+          "Sha256": "5c7c4f6a82f0b004a53f9e192e7a37a487ea5fd862bea8f947ccc0d87df8684f",
+          "Size": 200280
+        }
+      ]
+    },
+    {
+      "Id": "rescale_reticle",
+      "Name": "Истинный размер круга сведения",
+      "Author": "revan",
+      "IsPovar": false,
+      "Category": "battle",
+      "CategoryName": "В бою",
+      "Version": "1.0.0",
+      "SizeMb": 0.1,
+      "ShortDesc": "Корректирует отображение круга сведения согласно механике разброса.",
+      "FullDesc": "Приводит визуальный радиус круга прицела в точное соответствие с реальным 100% разбросом снарядов на сервере игры.",
+      "Features": [
+        "Честное визуальное отображение реального серверного разброса",
+        "Уменьшение круга сведения до фактического распределения Гаусса",
+        "Помогает лучше прицеливаться в уязвимые точки на дальней дистанции"
+      ],
+      "AuthorUrl": "https://nidin.ru/mods.html",
+      "Changelog": [],
+      "Requires": [],
+      "CleanPatterns": [
+        "*rescaleReticle*.mtmod"
+      ],
+      "Conflicts": [],
+      "IsNew": false,
+      "IsBroken": false,
+      "BrokenReason": "",
+      "IsVideoTeam": false,
+      "VideoTeamOnly": false,
+      "ScreenshotUrl": "screenshots/rescale_reticle.jpg",
+      "ScreenshotSha256": "82efc15f85e64a0f68b6136536b9f7af3ae91d9df8c482402c0708aff272435c",
+      "Hidden": false,
+      "Files": [
+        {
+          "Src": "files/mods/mod_rescaleReticle.mtmod",
+          "Path": "mod_rescaleReticle.mtmod",
+          "Target": "mods",
+          "KeepUserCopy": false,
+          "Sha256": "96169068f3f9eeba13a100f68de4dd71fe4d2ff2225f9dcbe20d9dfaf4c7b689",
+          "Size": 5068
+        }
+      ]
+    }
+  ],
+  "News": [
+    {
+      "Id": "1.46.13",
+      "Version": "1.46.13",
+      "Tag": "РЕЛИЗ ХАБА",
+      "Date": "20 ноября 2026",
+      "Title": "Povar Hub 1.1.0 и Modpack 1.46.13 — Облачные обновления и самообновление хаба",
+      "Summary": "Полный переход на облачную доставку модификаций через GitHub + CDN с проверкой целостности SHA-256.",
+      "Changes": [
+        "Добавлено автоматическое скачивание модов, библиотек API и конфигов напрямую из облачного репозитория.",
+        "Реализовано самообновление самого лаунчера Povar Hub при выходе новых версий.",
+        "Добавлен автоматический перенос вашего набора модов при выходе нового патча игры.",
+        "Исправлено определение обновлений по контрольным суммам SHA-256."
+      ]
+    }
+  ]
+}

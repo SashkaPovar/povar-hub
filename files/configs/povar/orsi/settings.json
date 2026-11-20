@@ -1,0 +1,71 @@
+{
+  "config_version": 19,
+  "detailed_widget": {
+    "has_position": false,
+    "locked": false,
+    "minimized": false,
+    "opacity": 0.4,
+    "scale": 1.0,
+    "x": null,
+    "y": null
+  },
+  "diagnostics": {
+    "enabled": true,
+    "log_panel_tree": false,
+    "max_lines": 6,
+    "persist_interval": 2.5,
+    "visible_overlay": false,
+    "write_diagnostics": false,
+    "write_snapshot": false
+  },
+  "display": {
+    "detailed_widget_alt_mode": "always",
+    "detailed_widget_mode": "show",
+    "personal_alt_mode": "always",
+    "personal_indicator_mode": "off",
+    "team_alt_mode": "alt",
+    "team_indicator_mode": "bars",
+    "team_skill_icons": "show"
+  },
+  "enabled": true,
+  "personal_overlay": {
+    "anchor_x_ratio": 0.535,
+    "anchor_y_ratio": 0.942,
+    "enabled": true,
+    "font_size": 30,
+    "offset_x": 0,
+    "offset_y": 0,
+    "opacity": 1.0,
+    "render_mode": "overlay",
+    "slot_index": 6
+  },
+  "team_overlay": {
+    "anchor_mode": "fixed",
+    "anchor_tokens": [
+      "mine",
+      "minefield",
+      "smoke",
+      "poi",
+      "icon",
+      "equipment",
+      "status"
+    ],
+    "column_offset_x": 0,
+    "column_offset_y": 0,
+    "dynamic_probe_enabled": false,
+    "enabled": true,
+    "fallback_anchor_x_ratio": 0.094,
+    "fallback_anchor_y_ratio": 0.056,
+    "font_size": 18,
+    "icon_offset_x": 6,
+    "icon_offset_y": 0,
+    "max_rows": 7,
+    "max_scan_nodes": 180,
+    "opacity": 1.0,
+    "render_mode": "flash_stage",
+    "row_height_ratio": 0.033,
+    "row_merge_threshold": 10,
+    "show_self": true
+  },
+  "write_log": false
+}

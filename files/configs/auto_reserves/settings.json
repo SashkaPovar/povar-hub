@@ -1,0 +1,12 @@
+{
+    "show_notifications": true, 
+    "initialized": false, 
+    "reserves": {
+        "battle_xp_100": false, 
+        "battle_xp_50": false, 
+        "credits_50": false, 
+        "combined_200": false, 
+        "combined_300": false
+    }, 
+    "enabled": true
+}

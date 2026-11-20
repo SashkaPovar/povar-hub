@@ -1,0 +1,11 @@
+{
+  "accounts": {},
+  "enabled": true,
+  "hotkey_enabled": false,
+  "hotkey_hint": "",
+  "notify_delay_after_enter_lobby_sec": 0.6,
+  "per_account": true,
+  "reset_hour_msk": 3,
+  "show_once_per_game_day": true,
+  "url": "https://tanki.su/ru/daily-check-in/"
+}
