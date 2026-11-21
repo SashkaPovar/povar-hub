@@ -1,6 +1,6 @@
 {
   "Schema": 2,
-  "UpdatedAt": "2026-11-21 11:24",
+  "UpdatedAt": "2026-11-21 11:39",
   "ClientVersion": "1.46",
   "ModpackVersion": "1.46.13",
   "TelegramUrl": "https://t.me/povar_mods",
@@ -14,8 +14,8 @@
     "MinVersion": "1.1.0",
     "Src": "hub/PovarHub.exe",
     "Url": "",
-    "Sha256": "ca499811519d553c29594da9bd58e18e9677f9ea5740f5b5961a8fa1cb81006f",
-    "Size": 714240,
+    "Sha256": "a0080e1700f06107dbbf6c9f7091996f67a26726b9423086eb08ff1ecdfa34c6",
+    "Size": 716800,
     "Date": "20 ноября 2026",
     "Changelog": [
       "Автоматическая загрузка и обновление модов из GitHub с проверкой SHA-256 и резервным зеркалом CDN",
@@ -545,6 +545,49 @@
   ],
   "Mods": [
     {
+      "Id": "crew_dismiss_all",
+      "Name": "Быстрая демобилизация всего экипажа",
+      "Author": "PovarMods",
+      "IsPovar": true,
+      "Category": "hangar",
+      "CategoryName": "Ангар",
+      "Version": "0.1.1",
+      "SizeMb": 0.1,
+      "SizeBytes": 4735,
+      "ShortDesc": "",
+      "FullDesc": "",
+      "Features": [],
+      "AuthorUrl": "https://t.me/povar_mods",
+      "Changelog": [],
+      "Requires": [],
+      "CleanPatterns": [
+        "povar/*povarmods.crew.dismiss.all*.mtmod"
+      ],
+      "Conflicts": [],
+      "IsNew": true,
+      "IsBroken": false,
+      "BrokenReason": "",
+      "IsVideoTeam": false,
+      "VideoTeamOnly": false,
+      "ScreenshotUrl": "screenshots/crew_dismiss_all.jpg",
+      "ScreenshotSha256": "3529dd320c0599e43f7bc65eeef77cc3b3bad1cc23e12b97cd8c568a22fe3d84",
+      "Hidden": false,
+      "BadgeText": "",
+      "BadgeColor": "#F97316",
+      "HideSize": false,
+      "ExtraNote": "",
+      "Files": [
+        {
+          "Src": "files/mods/povar/povarmods.crew.dismiss.all_0.1.1.mtmod",
+          "Path": "povar/povarmods.crew.dismiss.all_0.1.1.mtmod",
+          "Target": "mods",
+          "KeepUserCopy": false,
+          "Sha256": "878c6d9d36b36d40ed1eef645cc4a155ceeb0d010a4219fc726d90f5c95e42bd",
+          "Size": 4735
+        }
+      ]
+    },
+    {
       "Id": "equip_coin_counter",
       "Name": "Отображения счётчика компонентов экспериментального оборудования",
       "Author": "PovarMods",
@@ -594,7 +637,7 @@
       "IsPovar": true,
       "Category": "stats",
       "CategoryName": "Статистика",
-      "Version": "1.46.12",
+      "Version": "",
       "SizeMb": 3.2,
       "SizeBytes": 3337523,
       "ShortDesc": "Единый комплексный мод соревновательного режима «Натиск».",
@@ -1754,6 +1797,52 @@
       ]
     },
     {
+      "Id": "poliroid_battlehits",
+      "Name": "Poliroid battlehits",
+      "Author": "poliroid",
+      "IsPovar": false,
+      "Category": "hangar",
+      "CategoryName": "Ангар",
+      "Version": "2.2.6",
+      "SizeMb": 28.8,
+      "SizeBytes": 30234114,
+      "ShortDesc": "",
+      "FullDesc": "",
+      "Features": [],
+      "AuthorUrl": "https://t.me/povar_mods",
+      "Changelog": [],
+      "Requires": [
+        "modslistapi",
+        "modssettingsapi"
+      ],
+      "CleanPatterns": [
+        "*me.poliroid.battlehits*.mtmod"
+      ],
+      "Conflicts": [],
+      "IsNew": false,
+      "IsBroken": false,
+      "BrokenReason": "",
+      "IsVideoTeam": false,
+      "VideoTeamOnly": false,
+      "ScreenshotUrl": "screenshots/poliroid_battlehits.jpg",
+      "ScreenshotSha256": "d4b2afa0bc362b4741783a1508756dfe8279e09e7600f671b9211512a5a090e6",
+      "Hidden": false,
+      "BadgeText": "",
+      "BadgeColor": "#F97316",
+      "HideSize": false,
+      "ExtraNote": "",
+      "Files": [
+        {
+          "Src": "files/mods/me.poliroid.battlehits_2.2.6.mtmod",
+          "Path": "me.poliroid.battlehits_2.2.6.mtmod",
+          "Target": "mods",
+          "KeepUserCopy": false,
+          "Sha256": "4b3e2c423b00be8c5332c4a9a5afdca43c5992156d9357103fabfb0dc711568e",
+          "Size": 30234114
+        }
+      ]
+    },
+    {
       "Id": "safeshot",
       "Name": "Блокировка случайной стрельбы",
       "Author": "SafeShot",
@@ -2085,7 +2174,7 @@
       "IsVideoTeam": false,
       "VideoTeamOnly": false,
       "ScreenshotUrl": "screenshots/style_filters.jpg",
-      "ScreenshotSha256": "5ae3627b050d1ec2e72030ba44c134e8b8f1ca4d614e8701e018c33a4215e51d",
+      "ScreenshotSha256": "e01ea8b0e603fc66470bda5875738aeca7bf3fc83c519da37b68fe8585ff9517",
       "Hidden": false,
       "BadgeText": "",
       "BadgeColor": "#F97316",
