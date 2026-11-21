@@ -1,6 +1,6 @@
 {
   "Schema": 2,
-  "UpdatedAt": "2026-11-21 11:46",
+  "UpdatedAt": "2026-11-21 12:50",
   "ClientVersion": "1.46",
   "ModpackVersion": "1.46.13",
   "TelegramUrl": "https://t.me/povar_mods",
@@ -14,7 +14,7 @@
     "MinVersion": "1.1.0",
     "Src": "hub/PovarHub.exe",
     "Url": "",
-    "Sha256": "5bb02cebbd0441f09239fe8662c6c8a06008981ce09b00b1cb03dba6fefe5ae0",
+    "Sha256": "fda8ecefc4de6bd790f758c5d8c9774e05242c16e3792420bfd8967bb66c038f",
     "Size": 718848,
     "Date": "20 ноября 2026",
     "Changelog": [
@@ -2385,11 +2385,11 @@
   ],
   "News": [
     {
+      "Title": "Povar Hub 1.1.0 и Modpack 1.46.13 — Облачные обновления и самообновление хаба",
       "Id": "1.46.13",
       "Version": "1.46.13",
       "Tag": "РЕЛИЗ ХАБА",
       "Date": "20 ноября 2026",
-      "Title": "Povar Hub 1.1.0 и Modpack 1.46.13 — Облачные обновления и самообновление хаба",
       "Summary": "Полный переход на облачную доставку модификаций через GitHub + CDN с проверкой целостности SHA-256.",
       "Changes": [
         "Добавлено автоматическое скачивание модов, библиотек API и конфигов напрямую из облачного репозитория.",
