@@ -1,6 +1,6 @@
 {
   "Schema": 2,
-  "UpdatedAt": "2026-11-20 15:57",
+  "UpdatedAt": "2026-11-21 06:31",
   "ClientVersion": "1.46",
   "ModpackVersion": "1.46.13",
   "TelegramUrl": "https://t.me/povar_mods",
@@ -14,8 +14,8 @@
     "MinVersion": "1.1.0",
     "Src": "hub/PovarHub.exe",
     "Url": "",
-    "Sha256": "2ca06f4e030c683f7b54d072e10f66d700d78b351d7e4c9c9becf1d2c2159d52",
-    "Size": 701440,
+    "Sha256": "97f544fe1209cab219994fb7fb4a63e97a2fe8c23c9071a2b6831379ced44973",
+    "Size": 710144,
     "Date": "20 ноября 2026",
     "Changelog": [
       "Автоматическая загрузка и обновление модов из GitHub с проверкой SHA-256 и резервным зеркалом CDN",
@@ -546,13 +546,14 @@
   "Mods": [
     {
       "Id": "onslaught_mods",
-      "Name": "Комплекс модов Натиска",
+      "Name": "Комплекс модов для Натиска",
       "Author": "PovarMods",
       "IsPovar": true,
       "Category": "stats",
       "CategoryName": "Статистика",
       "Version": "1.46.12",
       "SizeMb": 3.2,
+      "SizeBytes": 3337523,
       "ShortDesc": "Единый комплексный мод соревновательного режима «Натиск».",
       "FullDesc": "Содержит внутри себя полную аналитику режима Натиск (очки престижа, графики, сессии), коллектор матчей и пропуск отсчета в реплеях. Включает пакеты веб-интерфейса OpenWG.",
       "Features": [
@@ -564,8 +565,6 @@
       "AuthorUrl": "https://t.me/povar_mods",
       "Changelog": [],
       "Requires": [
-        "modslistapi",
-        "modssettingsapi",
         "openwg_fixes"
       ],
       "CleanPatterns": [
@@ -589,6 +588,10 @@
       "ScreenshotUrl": "",
       "ScreenshotSha256": "",
       "Hidden": false,
+      "BadgeText": "",
+      "BadgeColor": "#F97316",
+      "HideSize": false,
+      "ExtraNote": "",
       "Files": [
         {
           "Src": "files/mods/povar/povarmods.onslaught.pack.mtmod",
@@ -625,6 +628,7 @@
       "CategoryName": "В бою",
       "Version": "0.2.0",
       "SizeMb": 0.2,
+      "SizeBytes": 177736,
       "ShortDesc": "Индивидуальные и суммарные полоски HP техники союзников и врагов.",
       "FullDesc": "Информативные цветные полоски здоровья каждого танка в боковых панелях (ушах) команд. Позволяет мгновенно оценить перевес по очкам прочности на фланге.",
       "Features": [
@@ -652,6 +656,10 @@
       "ScreenshotUrl": "",
       "ScreenshotSha256": "",
       "Hidden": false,
+      "BadgeText": "",
+      "BadgeColor": "#F97316",
+      "HideSize": false,
+      "ExtraNote": "",
       "Files": [
         {
           "Src": "files/mods/povar/povarmods.battlehp.mtmod",
@@ -672,6 +680,7 @@
       "CategoryName": "Ангар",
       "Version": "0.4.1",
       "SizeMb": 0.1,
+      "SizeBytes": 71735,
       "ShortDesc": "Отдельная удобная вкладка боевых отчетов в ангаре.",
       "FullDesc": "Разделяет системные сообщения и боевые результаты в Центре уведомлений ангара на отдельные вкладки для быстрого доступа.",
       "Features": [
@@ -696,6 +705,10 @@
       "ScreenshotUrl": "",
       "ScreenshotSha256": "",
       "Hidden": false,
+      "BadgeText": "",
+      "BadgeColor": "#F97316",
+      "HideSize": false,
+      "ExtraNote": "",
       "Files": [
         {
           "Src": "files/mods/povar/povarmods.battle.notifications.tab_0.4.1.mtmod",
@@ -716,6 +729,7 @@
       "CategoryName": "Ангар",
       "Version": "0.1.9",
       "SizeMb": 0.1,
+      "SizeBytes": 23411,
       "ShortDesc": "Автоматический выбор желаемого боевого режима при логине.",
       "FullDesc": "Запоминает выбранный режим боя (Случайный бой, Натиск, Линия фронта) и активирует его сразу при запуске игры, минуя сбросы.",
       "Features": [
@@ -739,6 +753,10 @@
       "ScreenshotUrl": "",
       "ScreenshotSha256": "",
       "Hidden": false,
+      "BadgeText": "",
+      "BadgeColor": "#F97316",
+      "HideSize": false,
+      "ExtraNote": "",
       "Files": [
         {
           "Src": "files/mods/povar/povarmods.login.mode_0.1.9.mtmod",
@@ -759,6 +777,7 @@
       "CategoryName": "Ангар",
       "Version": "2.12.3",
       "SizeMb": 0.1,
+      "SizeBytes": 18594,
       "ShortDesc": "Автоматическое продление личных и клановых резервов.",
       "FullDesc": "Автоматически включает боевой опыт, свободный опыт или опыт экипажа в ангаре по истечении таймера, экономя время игрока.",
       "Features": [
@@ -785,6 +804,10 @@
       "ScreenshotUrl": "",
       "ScreenshotSha256": "",
       "Hidden": false,
+      "BadgeText": "",
+      "BadgeColor": "#F97316",
+      "HideSize": false,
+      "ExtraNote": "",
       "Files": [
         {
           "Src": "files/mods/povar/povarmods.auto.reserves_2.12.3.mtmod",
@@ -813,6 +836,7 @@
       "CategoryName": "Ангар",
       "Version": "1.0.2",
       "SizeMb": 0.1,
+      "SizeBytes": 18993,
       "ShortDesc": "Уведомление в ангаре о неполученной суточной награде.",
       "FullDesc": "Проверяет статус отметки в ежедневном табель-календаре Lesta и вежливо напоминает забрать суточный подарок при входе в игру.",
       "Features": [
@@ -839,6 +863,10 @@
       "ScreenshotUrl": "",
       "ScreenshotSha256": "",
       "Hidden": false,
+      "BadgeText": "",
+      "BadgeColor": "#F97316",
+      "HideSize": false,
+      "ExtraNote": "",
       "Files": [
         {
           "Src": "files/mods/povar/povarmods.daily.checkin.helper_1.0.2.mtmod",
@@ -867,6 +895,7 @@
       "CategoryName": "Ангар",
       "Version": "1.9.24",
       "SizeMb": 159.5,
+      "SizeBytes": 167205438,
       "ShortDesc": "3D-локации боевых карт вместо ангара + 14 пакетов окружения.",
       "FullDesc": "Позволяет заменить стандартный ангар на трехмерное пространство любой боевой карты Мира танков (Малиновка, Химмельсдорф, Прохоровка и др.). Поддерживает свободную камеру и ротацию карт.",
       "Features": [
@@ -894,6 +923,10 @@
       "ScreenshotUrl": "screenshots/hangars.jpg",
       "ScreenshotSha256": "bbfe781bf64a1db194f884ca6cea6cd9c5101928c96620c5ef4aaa562b7f2777",
       "Hidden": false,
+      "BadgeText": "",
+      "BadgeColor": "#F97316",
+      "HideSize": false,
+      "ExtraNote": "",
       "Files": [
         {
           "Src": "files/mods/povar/povarmods.hangars_1.9.24.mtmod",
@@ -914,6 +947,7 @@
       "CategoryName": "Ангар",
       "Version": "1.7.5",
       "SizeMb": 0.3,
+      "SizeBytes": 337342,
       "ShortDesc": "3D-модели бронирования и модулей танков прямо в ангаре.",
       "FullDesc": "Позволяет исследовать бронелисты, внутренние модули и экипаж любой боевой машины без сторонних сайтов и приложений.",
       "Features": [
@@ -939,6 +973,10 @@
       "ScreenshotUrl": "screenshots/armor_inspector.jpg",
       "ScreenshotSha256": "3f349ff5cb239cfd2b93e17b2e1bae7d8d43b566b2bf119926f24592ad083a86",
       "Hidden": false,
+      "BadgeText": "",
+      "BadgeColor": "#F97316",
+      "HideSize": false,
+      "ExtraNote": "",
       "Files": [
         {
           "Src": "files/mods/povar/povarmods.armor_inspector_1.7.5.mtmod",
@@ -959,6 +997,7 @@
       "CategoryName": "В бою",
       "Version": "1.2.4",
       "SizeMb": 0.9,
+      "SizeBytes": 989233,
       "ShortDesc": "Приведенная броня цели, угол встречи и точный расчет шанса пробития.",
       "FullDesc": "Динамически рассчитывает угол встречи снаряда с броней танка противника с учетом нормализации и рикошета прямо в бою. Показывает точную приведенную толщину брони.",
       "Features": [
@@ -985,6 +1024,10 @@
       "ScreenshotUrl": "",
       "ScreenshotSha256": "",
       "Hidden": false,
+      "BadgeText": "",
+      "BadgeColor": "#F97316",
+      "HideSize": false,
+      "ExtraNote": "",
       "Files": [
         {
           "Src": "files/mods/povar/povarmods.ap_calculator_1.2.4.mtmod",
@@ -1005,6 +1048,7 @@
       "CategoryName": "В бою",
       "Version": "1.0.1",
       "SizeMb": 0.1,
+      "SizeBytes": 1617,
       "ShortDesc": "Мгновенное скрытие лампы Шестого чувства по таймеру.",
       "FullDesc": "Скрывает иконку лампочки Шестого чувства сразу после отсчета, не загромождая прицел и боевой обзор.",
       "Features": [
@@ -1028,6 +1072,10 @@
       "ScreenshotUrl": "",
       "ScreenshotSha256": "",
       "Hidden": false,
+      "BadgeText": "",
+      "BadgeColor": "#F97316",
+      "HideSize": false,
+      "ExtraNote": "",
       "Files": [
         {
           "Src": "files/mods/povar/povarmods.sixthsense.instanthide_1.0.1.mtmod",
@@ -1048,6 +1096,7 @@
       "CategoryName": "В бою",
       "Version": "1.0.4",
       "SizeMb": 0.1,
+      "SizeBytes": 15848,
       "ShortDesc": "Мгновенное отдаление камеры на высоту птичьего полета.",
       "FullDesc": "Позволяет отдалять камеру на максимальную тактическую высоту для полного обзора карты за холмами и препятствиями.",
       "Features": [
@@ -1074,6 +1123,10 @@
       "ScreenshotUrl": "",
       "ScreenshotSha256": "",
       "Hidden": false,
+      "BadgeText": "",
+      "BadgeColor": "#F97316",
+      "HideSize": false,
+      "ExtraNote": "",
       "Files": [
         {
           "Src": "files/mods/povar/povarmods.commander_view_1.0.4.mtmod",
@@ -1094,6 +1147,7 @@
       "CategoryName": "Ангар",
       "Version": "1.0.40",
       "SizeMb": 0.3,
+      "SizeBytes": 354272,
       "ShortDesc": "Всплывающее окно быстрой смены предбоевых инструкций.",
       "FullDesc": "Добавляет удобное окно для быстрой смены и закупки предбоевых инструкций, модернизаций и оборудования в один клик без долгих переходов по меню ангара.",
       "Features": [
@@ -1121,6 +1175,10 @@
       "ScreenshotUrl": "",
       "ScreenshotSha256": "",
       "Hidden": false,
+      "BadgeText": "",
+      "BadgeColor": "#F97316",
+      "HideSize": false,
+      "ExtraNote": "",
       "Files": [
         {
           "Src": "files/mods/povar/povarmods.directiveshelper_1.0.40.mtmod",
@@ -1141,6 +1199,7 @@
       "CategoryName": "В бою",
       "Version": "1.1.4",
       "SizeMb": 0.1,
+      "SizeBytes": 40119,
       "ShortDesc": "Тонкая настройка прозрачности и оттенка листвы деревьев.",
       "FullDesc": "Позволяет скорректировать видимость силуэтов техники через плотные кусты и кроны деревьев.",
       "Features": [
@@ -1167,6 +1226,10 @@
       "ScreenshotUrl": "screenshots/foliage_customizer.jpg",
       "ScreenshotSha256": "c682cb50607e4405e03475c58c61b467681d93fda72a6ac95bf320755b8350d5",
       "Hidden": false,
+      "BadgeText": "",
+      "BadgeColor": "#F97316",
+      "HideSize": false,
+      "ExtraNote": "",
       "Files": [
         {
           "Src": "files/mods/povar/povarmods.foliage_customizer_1.1.4.mtmod",
@@ -1187,6 +1250,7 @@
       "CategoryName": "Ангар",
       "Version": "1.0.1",
       "SizeMb": 0.1,
+      "SizeBytes": 22066,
       "ShortDesc": "Удобная сортировка и поиск танков во вкладке «Техника».",
       "FullDesc": "Добавляет расширенные фильтры по нациям, уровням, типам и отличительным отметкам в профиле достижений игрока.",
       "Features": [
@@ -1210,6 +1274,10 @@
       "ScreenshotUrl": "screenshots/profile_filters.jpg",
       "ScreenshotSha256": "6a47ce92dc8e2f15b18a64ce4ea991b26f977bf473e9603904a20da86c84e60e",
       "Hidden": false,
+      "BadgeText": "",
+      "BadgeColor": "#F97316",
+      "HideSize": false,
+      "ExtraNote": "",
       "Files": [
         {
           "Src": "files/mods/povar/povarmods.profiletechniquefilters_1.0.1.mtmod",
@@ -1230,6 +1298,7 @@
       "CategoryName": "Ангар",
       "Version": "1.5.1",
       "SizeMb": 0.1,
+      "SizeBytes": 26916,
       "ShortDesc": "Показывает реальные никнеймы игроков после завершения матча.",
       "FullDesc": "Отображает настоящие ники игроков, скрывавшихся за игровым анонимайзером, в подробном окне послебоевой статистики.",
       "Features": [
@@ -1255,6 +1324,10 @@
       "ScreenshotUrl": "",
       "ScreenshotSha256": "",
       "Hidden": false,
+      "BadgeText": "",
+      "BadgeColor": "#F97316",
+      "HideSize": false,
+      "ExtraNote": "",
       "Files": [
         {
           "Src": "files/mods/povar/povarmods.battle_result_unanonymizer_1.5.1.mtmod",
@@ -1275,6 +1348,7 @@
       "CategoryName": "В бою",
       "Version": "1.0.0",
       "SizeMb": 0.1,
+      "SizeBytes": 1929,
       "ShortDesc": "Мгновенный вход в идущий бой при вылетах без перезапуска клиента.",
       "FullDesc": "Позволяет за считанные секунды восстановить разорванную связь с сервером без ожидания полной загрузки ангара.",
       "Features": [
@@ -1298,6 +1372,10 @@
       "ScreenshotUrl": "",
       "ScreenshotSha256": "",
       "Hidden": false,
+      "BadgeText": "",
+      "BadgeColor": "#F97316",
+      "HideSize": false,
+      "ExtraNote": "",
       "Files": [
         {
           "Src": "files/mods/povar/povarmods.fast_reconnect_1.0.0.mtmod",
@@ -1318,6 +1396,7 @@
       "CategoryName": "В бою",
       "Version": "4.18",
       "SizeMb": 0.1,
+      "SizeBytes": 108535,
       "ShortDesc": "Всплывающий счетчик урона союзников по вашему засвету.",
       "FullDesc": "Отображает всплывающие сообщения и сумму чистого урона по вашим разведданным в реальном времени во время боя.",
       "Features": [
@@ -1344,6 +1423,10 @@
       "ScreenshotUrl": "",
       "ScreenshotSha256": "",
       "Hidden": false,
+      "BadgeText": "",
+      "BadgeColor": "#F97316",
+      "HideSize": false,
+      "ExtraNote": "",
       "Files": [
         {
           "Src": "files/mods/spoter/mod_spotted_extended_light_4.18.mtmod",
@@ -1636,6 +1719,7 @@
       "CategoryName": "В бою",
       "Version": "1.0.0",
       "SizeMb": 0.1,
+      "SizeBytes": 43775,
       "ShortDesc": "Блокирует случайный выстрел по союзникам и остовам танков.",
       "FullDesc": "Защищает от штрафов и случайной траты снарядов при пересечении линии огня союзными машинами или попадании в подбитый остов.",
       "Features": [
@@ -1658,6 +1742,10 @@
       "ScreenshotUrl": "",
       "ScreenshotSha256": "",
       "Hidden": false,
+      "BadgeText": "",
+      "BadgeColor": "#F97316",
+      "HideSize": false,
+      "ExtraNote": "",
       "Files": [
         {
           "Src": "files/mods/safeshot.mtmod",
@@ -1686,6 +1774,7 @@
       "CategoryName": "В бою",
       "Version": "3.4.08",
       "SizeMb": 0.3,
+      "SizeBytes": 346451,
       "ShortDesc": "Цветное оповещение о наведении противника на ваш танк.",
       "FullDesc": "Отображает цветной световой индикатор опасности (зеленый/желтый/красный) и звуковой сигнал при наведении орудия вражеской техники на ваш танк.",
       "Features": [
@@ -1708,6 +1797,10 @@
       "ScreenshotUrl": "",
       "ScreenshotSha256": "",
       "Hidden": false,
+      "BadgeText": "",
+      "BadgeColor": "#F97316",
+      "HideSize": false,
+      "ExtraNote": "",
       "Files": [
         {
           "Src": "files/mods/tv.protanki.enemyannouncer_3.4.08.mtmod",
@@ -1736,6 +1829,7 @@
       "CategoryName": "Ангар",
       "Version": "2.2.0",
       "SizeMb": 0.1,
+      "SizeBytes": 148981,
       "ShortDesc": "Снятие съемного оборудования и смена модернизаций в один клик.",
       "FullDesc": "Удобный интерфейс в окне комплектации для мгновенного снятия съемного оборудования и перестановки на другой танк.",
       "Features": [
@@ -1758,6 +1852,10 @@
       "ScreenshotUrl": "",
       "ScreenshotSha256": "",
       "Hidden": false,
+      "BadgeText": "",
+      "BadgeColor": "#F97316",
+      "HideSize": false,
+      "ExtraNote": "",
       "Files": [
         {
           "Src": "files/mods/panikaxa.quick_demount_2.2.0.mtmod",
@@ -1778,6 +1876,7 @@
       "CategoryName": "В бою",
       "Version": "1.0.0",
       "SizeMb": 0.1,
+      "SizeBytes": 73531,
       "ShortDesc": "Маркеры углов поворота орудия для ПТ-САУ и артиллерии.",
       "FullDesc": "Четкие визуальные скобки УГН вокруг прицела, помогающие не сорвать маскировку и сведение орудия при выходе за пределы сектора.",
       "Features": [
@@ -1800,6 +1899,10 @@
       "ScreenshotUrl": "",
       "ScreenshotSha256": "",
       "Hidden": false,
+      "BadgeText": "",
+      "BadgeColor": "#F97316",
+      "HideSize": false,
+      "ExtraNote": "",
       "Files": [
         {
           "Src": "files/mods/phantasm.gunconstraints.mtmod",
@@ -1814,12 +1917,13 @@
     {
       "Id": "remove_fog",
       "Name": "Отключение тумана на картах",
-      "Author": "nidin",
+      "Author": "_HawgJaws_",
       "IsPovar": false,
       "Category": "battle",
       "CategoryName": "В бою",
-      "Version": "1.0.0",
+      "Version": "",
       "SizeMb": 1.0,
+      "SizeBytes": 1036816,
       "ShortDesc": "Убирает атмосферную дымку, делая картинку четкой и повышая FPS.",
       "FullDesc": "Полностью отключает эффект мутной серой дымки на дальних дистанциях боевых карт. Танки врагов становятся четко различимы на любом расстоянии.",
       "Features": [
@@ -1842,6 +1946,10 @@
       "ScreenshotUrl": "",
       "ScreenshotSha256": "",
       "Hidden": false,
+      "BadgeText": "",
+      "BadgeColor": "#F97316",
+      "HideSize": false,
+      "ExtraNote": "",
       "Files": [
         {
           "Src": "files/mods/remove_fog.mtmod",
@@ -1862,6 +1970,7 @@
       "CategoryName": "Ангар",
       "Version": "1.0.12",
       "SizeMb": 0.1,
+      "SizeBytes": 29086,
       "ShortDesc": "Дополнительные опции мыши, чувствительности и привязки клавиш.",
       "FullDesc": "Расширяет стандартное меню настроек игры, позволяя тонко калибровать чувствительность в снайперском режиме и отдельные комбинации клавиш.",
       "Features": [
@@ -1886,6 +1995,10 @@
       "ScreenshotUrl": "screenshots/control_settings.jpg",
       "ScreenshotSha256": "41f1a5bd1d69452f696bda294cbaaaba6a37523b9cb7442c7bc81408f6548bcf",
       "Hidden": false,
+      "BadgeText": "",
+      "BadgeColor": "#F97316",
+      "HideSize": false,
+      "ExtraNote": "",
       "Files": [
         {
           "Src": "files/mods/nidin.improved_control_settings_1.0.12.mtmod",
@@ -1906,6 +2019,7 @@
       "CategoryName": "Ангар",
       "Version": "1.2.3",
       "SizeMb": 0.2,
+      "SizeBytes": 235003,
       "ShortDesc": "Удобный поиск и сортировка камуфляжей и 2D/3D стилей во внешнем виде.",
       "FullDesc": "Добавляет категории (историчные, неисторичные, готовые 3D-стили, арендованные элементы) в меню кастомизации техники.",
       "Features": [
@@ -1930,6 +2044,10 @@
       "ScreenshotUrl": "",
       "ScreenshotSha256": "",
       "Hidden": false,
+      "BadgeText": "",
+      "BadgeColor": "#F97316",
+      "HideSize": false,
+      "ExtraNote": "",
       "Files": [
         {
           "Src": "files/mods/panikaxa.lesta.extra_style_filters_1.2.3.mtmod",
@@ -1950,6 +2068,7 @@
       "CategoryName": "В бою",
       "Version": "1.0.12",
       "SizeMb": 0.1,
+      "SizeBytes": 21338,
       "ShortDesc": "Устранение задержки сведения маркера при резких поворотах башни.",
       "FullDesc": "Оптимизирует обработку тиков сведения прицела клиентом, обеспечивая более плавное и предсказуемое поведение маркера.",
       "Features": [
@@ -1972,6 +2091,10 @@
       "ScreenshotUrl": "screenshots/responsive_reticle.jpg",
       "ScreenshotSha256": "50c926f03dd3a3bdb6f6879883664abf88fb3ad4305c322e27ce4fa346d7a394",
       "Hidden": false,
+      "BadgeText": "",
+      "BadgeColor": "#F97316",
+      "HideSize": false,
+      "ExtraNote": "",
       "Files": [
         {
           "Src": "files/mods/pruszko.responsive_reticle_1.0.12.mtmod",
@@ -1992,6 +2115,7 @@
       "CategoryName": "Ангар",
       "Version": "1.0.2",
       "SizeMb": 0.2,
+      "SizeBytes": 191551,
       "ShortDesc": "Отображение пинга и онлайна RU-кластеров прямо в ангаре.",
       "FullDesc": "Показывает актуальный пинг и численность игроков на всех серверах Lesta прямо в выпадающем меню выбора сервера.",
       "Features": [
@@ -2017,6 +2141,10 @@
       "ScreenshotUrl": "screenshots/server_list.jpg",
       "ScreenshotSha256": "f03ac75a2b946af0650407d523178d48cc2ace7a217ff6e722fdeb7eeb4f00ef",
       "Hidden": false,
+      "BadgeText": "",
+      "BadgeColor": "#F97316",
+      "HideSize": false,
+      "ExtraNote": "",
       "Files": [
         {
           "Src": "files/mods/nidin.improved_server_list_1.0.2.mtmod",
@@ -2037,6 +2165,7 @@
       "CategoryName": "В бою",
       "Version": "1.0.0",
       "SizeMb": 0.2,
+      "SizeBytes": 200280,
       "ShortDesc": "Контрастные декали пробитий (зеленые) и рикошетов (красные).",
       "FullDesc": "Заменяет серые неразборчивые декали попаданий на яркие цветные метки для мгновенного анализа брони и уязвимых зон в бою.",
       "Features": [
@@ -2059,6 +2188,10 @@
       "ScreenshotUrl": "",
       "ScreenshotSha256": "",
       "Hidden": false,
+      "BadgeText": "",
+      "BadgeColor": "#F97316",
+      "HideSize": false,
+      "ExtraNote": "",
       "Files": [
         {
           "Src": "files/mods/damage_stickers.mtmod",
@@ -2079,6 +2212,7 @@
       "CategoryName": "В бою",
       "Version": "1.0.0",
       "SizeMb": 0.1,
+      "SizeBytes": 5068,
       "ShortDesc": "Корректирует отображение круга сведения согласно механике разброса.",
       "FullDesc": "Приводит визуальный радиус круга прицела в точное соответствие с реальным 100% разбросом снарядов на сервере игры.",
       "Features": [
@@ -2101,6 +2235,10 @@
       "ScreenshotUrl": "screenshots/rescale_reticle.jpg",
       "ScreenshotSha256": "82efc15f85e64a0f68b6136536b9f7af3ae91d9df8c482402c0708aff272435c",
       "Hidden": false,
+      "BadgeText": "",
+      "BadgeColor": "#F97316",
+      "HideSize": false,
+      "ExtraNote": "",
       "Files": [
         {
           "Src": "files/mods/mod_rescaleReticle.mtmod",
@@ -2115,11 +2253,11 @@
   ],
   "News": [
     {
+      "Title": "Povar Hub 1.1.0 и Modpack 1.46.13 — Облачные обновления и самообновление хаба",
       "Id": "1.46.13",
       "Version": "1.46.13",
       "Tag": "РЕЛИЗ ХАБА",
       "Date": "20 ноября 2026",
-      "Title": "Povar Hub 1.1.0 и Modpack 1.46.13 — Облачные обновления и самообновление хаба",
       "Summary": "Полный переход на облачную доставку модификаций через GitHub + CDN с проверкой целостности SHA-256.",
       "Changes": [
         "Добавлено автоматическое скачивание модов, библиотек API и конфигов напрямую из облачного репозитория.",
