@@ -1,6 +1,6 @@
 {
   "Schema": 2,
-  "UpdatedAt": "2026-11-22 06:43",
+  "UpdatedAt": "2026-11-22 06:47",
   "ClientVersion": "1.46",
   "ModpackVersion": "1.46.13",
   "TelegramUrl": "https://t.me/povar_mods",
@@ -14,8 +14,8 @@
     "MinVersion": "1.1.0",
     "Src": "hub/PovarHub.exe",
     "Url": "",
-    "Sha256": "5136cb2894540921f7578c97cb9850ac82ad103c22a6b82aefc8d587e2f4b941",
-    "Size": 719360,
+    "Sha256": "1fe034cfa74ea3e3785333efa4ad93c85e71f9e4e9521bb82038dbb15b5a0919",
+    "Size": 721408,
     "Date": "20 ноября 2026",
     "Changelog": [
       "Автоматическая загрузка и обновление модов из GitHub с проверкой SHA-256 и резервным зеркалом CDN",
