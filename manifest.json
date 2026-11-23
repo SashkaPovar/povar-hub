@@ -1,6 +1,6 @@
 {
   "Schema": 2,
-  "UpdatedAt": "2026-11-22 16:37",
+  "UpdatedAt": "2026-11-23 19:36",
   "ClientVersion": "1.46",
   "ModpackVersion": "1.46.13",
   "TelegramUrl": "https://t.me/povar_mods",
@@ -14,8 +14,8 @@
     "MinVersion": "1.1.0",
     "Src": "hub/PovarHub.exe",
     "Url": "",
-    "Sha256": "215023fec00e6dc64761b353a81b66e41d6cc9b340edde82fd0a8a28e386ea30",
-    "Size": 718336,
+    "Sha256": "ac0c2f761ec7e067a25ab3fc70677bb564ba0849a8b43c1b4d19ef780c17a75d",
+    "Size": 764416,
     "Date": "20 ноября 2026",
     "Changelog": [
       "Автоматическая загрузка и обновление модов из GitHub с проверкой SHA-256 и резервным зеркалом CDN",
@@ -545,6 +545,113 @@
   ],
   "Mods": [
     {
+      "Id": "missions_cards_ui",
+      "Name": "Карточки боевых задач",
+      "Author": "PovarMods",
+      "IsPovar": true,
+      "Category": "hangar",
+      "CategoryName": "Ангар",
+      "Version": "1.0.8",
+      "SizeMb": 0.1,
+      "SizeBytes": 134256,
+      "ShortDesc": "Современный интерфейс боевых задач в виде сетки карточек на Gameface.",
+      "FullDesc": "Полная переработка окна «Боевые задачи» в стильный интерактивный интерфейс на Gameface в виде сетки карточек (card-grid / master-detail) вместо стандартных аккордеон-полос.",
+      "Features": [
+        "Полная замена стандартного интерфейса задач на стильные интерактивные карточки",
+        "Подробное отображение условий, наград и прогресса в детальном виде",
+        "Плавная прокрутка колесиком мыши с кастомными скроллбарами",
+        "Удобная фильтрация и навигация по подвкладкам боевых задач",
+        "Адаптация под все разрешения экрана и масштабирование UI"
+      ],
+      "AuthorUrl": "https://t.me/povar_mods",
+      "Changelog": [
+        "1.0.8: Релиз Gameface-интерфейса карточек боевых задач."
+      ],
+      "Requires": [
+        "openwg_gameface"
+      ],
+      "CleanPatterns": [
+        "povar/*missions_cards_ui*.mtmod",
+        "povar/*missions_cards*.pyc"
+      ],
+      "Conflicts": [],
+      "IsNew": true,
+      "IsBroken": false,
+      "BrokenReason": "",
+      "IsVideoTeam": false,
+      "VideoTeamOnly": false,
+      "ScreenshotUrl": "",
+      "ScreenshotSha256": "",
+      "Hidden": false,
+      "BadgeText": "",
+      "BadgeColor": "#F97316",
+      "HideSize": false,
+      "ExtraNote": "",
+      "Files": [
+        {
+          "Src": "files/mods/povar/povarmods.missions_cards_ui_1.0.8.mtmod",
+          "Path": "povar/povarmods.missions_cards_ui_1.0.8.mtmod",
+          "Target": "mods",
+          "KeepUserCopy": false,
+          "Sha256": "68f36316a687088130b2829c4d266509b95b9b5750ef9358ab89f8d8a571bbd6",
+          "Size": 134256
+        }
+      ]
+    },
+    {
+      "Id": "ears_hp_color",
+      "Name": "Цвет полос HP в ушах команд",
+      "Author": "PovarMods",
+      "IsPovar": true,
+      "Category": "battle",
+      "CategoryName": "В бою",
+      "Version": "1.0.0",
+      "SizeMb": 0.1,
+      "SizeBytes": 30082,
+      "ShortDesc": "Кастомизация цветов и пресет «Разлом» для полосок HP в ушах.",
+      "FullDesc": "Позволяет настраивать цвета и оформление полосок прочности союзников и противников в боковых панелях команд (ушах), включая стильный пресет «Разлом» и поддержку HEX-цветов.",
+      "Features": [
+        "Пресеты оформления: «Разлом», «Стандарт», «Пользовательский»",
+        "Выбор индивидуальных цветов союзников и противников через выпадающие списки или HEX-код",
+        "Интеграция с окном настроек модов (ModsSettingsAPI / ModsGUI)",
+        "Высокая производительность без просадок FPS"
+      ],
+      "AuthorUrl": "https://t.me/povar_mods",
+      "Changelog": [
+        "1.0.0: Первый релиз мода настройки цветов полосок HP."
+      ],
+      "Requires": [
+        "modssettingsapi"
+      ],
+      "CleanPatterns": [
+        "povar/*ears_hp_color*.mtmod",
+        "povar/*ears_hp_color*.pyc"
+      ],
+      "Conflicts": [],
+      "IsNew": true,
+      "IsBroken": false,
+      "BrokenReason": "",
+      "IsVideoTeam": false,
+      "VideoTeamOnly": false,
+      "ScreenshotUrl": "",
+      "ScreenshotSha256": "",
+      "Hidden": false,
+      "BadgeText": "",
+      "BadgeColor": "#F97316",
+      "HideSize": false,
+      "ExtraNote": "",
+      "Files": [
+        {
+          "Src": "files/mods/povar/povarmods.ears_hp_color_1.0.0.mtmod",
+          "Path": "povar/povarmods.ears_hp_color_1.0.0.mtmod",
+          "Target": "mods",
+          "KeepUserCopy": false,
+          "Sha256": "8bbaae3a4bab8be7f6f4b4b70b71427be62a5669684f1f5b30f487c3b7910b3b",
+          "Size": 30082
+        }
+      ]
+    },
+    {
       "Id": "crew_dismiss_all",
       "Name": "Быстрая демобилизация всего экипажа",
       "Author": "PovarMods",
@@ -631,6 +738,114 @@
       ]
     },
     {
+      "Id": "active_quests_widget",
+      "Name": "Виджет активных боевых задач",
+      "Author": "PovarMods",
+      "IsPovar": true,
+      "Category": "hangar",
+      "CategoryName": "Ангар",
+      "Version": "1.0.8",
+      "SizeMb": 0.1,
+      "SizeBytes": 88587,
+      "ShortDesc": "Компактный Gameface-виджет доступных боевых задач для выбранного танка.",
+      "FullDesc": "Интерактивный Gameface-виджет в ангаре над ежедневными задачами. Отображает активные и доступные боевые задачи для выбранного в ангаре танка в реальном времени с возможностью сворачивания и скрытия отдельных задач.",
+      "Features": [
+        "Компактный нативный Gameface-интерфейс над ежедневными задачами",
+        "Отображение только актуальных задач для выбранной в карусели техники",
+        "Сворачивание и разворачивание виджета в один клик",
+        "Скрытие выполненных или неинтересных задач из списка",
+        "Полная адаптация под любые разрешения экрана и масштаб интерфейса"
+      ],
+      "AuthorUrl": "https://t.me/povar_mods",
+      "Changelog": [
+        "1.0.8: Адаптация и релиз виджета активных задач на Gameface."
+      ],
+      "Requires": [
+        "openwg_gameface"
+      ],
+      "CleanPatterns": [
+        "povar/*active_quests_widget*.mtmod",
+        "povar/*active_quests*.pyc"
+      ],
+      "Conflicts": [],
+      "IsNew": true,
+      "IsBroken": false,
+      "BrokenReason": "",
+      "IsVideoTeam": false,
+      "VideoTeamOnly": false,
+      "ScreenshotUrl": "",
+      "ScreenshotSha256": "",
+      "Hidden": false,
+      "BadgeText": "",
+      "BadgeColor": "#F97316",
+      "HideSize": false,
+      "ExtraNote": "",
+      "Files": [
+        {
+          "Src": "files/mods/povar/povarmods.active_quests_widget_1.0.8.mtmod",
+          "Path": "povar/povarmods.active_quests_widget_1.0.8.mtmod",
+          "Target": "mods",
+          "KeepUserCopy": false,
+          "Sha256": "62a177613ba891d98b75492feac514bd43306a26bfcd37fc5298410bf7f2e141",
+          "Size": 88587
+        }
+      ]
+    },
+    {
+      "Id": "ammo_equipment_preset",
+      "Name": "Пресеты снарядов и снаряжения",
+      "Author": "PovarMods",
+      "IsPovar": true,
+      "Category": "hangar",
+      "CategoryName": "Ангар",
+      "Version": "0.7.0",
+      "SizeMb": 0.1,
+      "SizeBytes": 55258,
+      "ShortDesc": "Быстрая загрузка пресетов БК и расходников через контекстное меню.",
+      "FullDesc": "Мод позволяет создавать до 12 готовых пресетов боекомплекта и расходников и применять их в один клик через контекстное меню ПКМ прямо в ангаре.",
+      "Features": [
+        "Создание до 12 именованных пресетов боекомплекта и снаряжения",
+        "Применение пресета в один клик через ПКМ по снарядам или расходникам",
+        "Настройка соотношения голдовых, основных и фугасных снарядов с защитой от переполнения",
+        "Удобное окно настройки через ModsListAPI с выбором из 36 тем оформления",
+        "Корректный учет барабанов заряжания и типов боеприпасов"
+      ],
+      "AuthorUrl": "https://t.me/povar_mods",
+      "Changelog": [
+        "0.7.0: Исправлено определение ролей снарядов по дескрипторам орудий и поддержка произвольного порядка слотов."
+      ],
+      "Requires": [
+        "modslistapi"
+      ],
+      "CleanPatterns": [
+        "povar/*ammo.equipment.preset*.mtmod",
+        "povar/*ammoEquipmentPreset*.pyc"
+      ],
+      "Conflicts": [],
+      "IsNew": true,
+      "IsBroken": false,
+      "BrokenReason": "",
+      "IsVideoTeam": false,
+      "VideoTeamOnly": false,
+      "ScreenshotUrl": "",
+      "ScreenshotSha256": "",
+      "Hidden": true,
+      "BadgeText": "",
+      "BadgeColor": "#F97316",
+      "HideSize": false,
+      "ExtraNote": "",
+      "Files": [
+        {
+          "Src": "files/mods/povar/povarmods.ammo.equipment.preset_0.7.0.mtmod",
+          "Path": "povar/povarmods.ammo.equipment.preset_0.7.0.mtmod",
+          "Target": "mods",
+          "KeepUserCopy": false,
+          "Sha256": "d184ff7f146ae5022ceeabb2793daf94fc3850b937d299ff11cda5b497fe40b1",
+          "Size": 55258
+        }
+      ]
+    },
+    {
       "Id": "onslaught_mods",
       "Name": "Комплекс модов для Натиска",
       "Author": "PovarMods",
@@ -638,8 +853,8 @@
       "Category": "stats",
       "CategoryName": "Статистика",
       "Version": "",
-      "SizeMb": 3.2,
-      "SizeBytes": 3337523,
+      "SizeMb": 3.7,
+      "SizeBytes": 3902544,
       "ShortDesc": "Единый комплексный мод соревновательного режима «Натиск».",
       "FullDesc": "Содержит внутри себя полную аналитику режима Натиск (очки престижа, графики, сессии), коллектор матчей и пропуск отсчета в реплеях. Включает пакеты веб-интерфейса OpenWG.",
       "Features": [
@@ -684,8 +899,8 @@
           "Path": "povar/povarmods.onslaught.pack.mtmod",
           "Target": "mods",
           "KeepUserCopy": false,
-          "Sha256": "3d9dee9928d2d99ece375c3672dc9ca7b7797ba26fc20937045ce87c78166c2c",
-          "Size": 3335877
+          "Sha256": "810d48ecd70a4bace65d0cadb59e5e1273967e912418cd5d45ac1cdcbc227358",
+          "Size": 3900898
         },
         {
           "Src": "files/configs/povar/ofsw/settings.json",
@@ -815,7 +1030,7 @@
       "CategoryName": "Ангар",
       "Version": "0.1.9",
       "SizeMb": 0.1,
-      "SizeBytes": 23411,
+      "SizeBytes": 24057,
       "ShortDesc": "Автоматический выбор желаемого боевого режима при логине.",
       "FullDesc": "Запоминает выбранный режим боя (Случайный бой, Натиск, Линия фронта) и активирует его сразу при запуске игры, минуя сбросы.",
       "Features": [
@@ -849,8 +1064,8 @@
           "Path": "povar/povarmods.login.mode_0.1.9.mtmod",
           "Target": "mods",
           "KeepUserCopy": false,
-          "Sha256": "d3257e298f329e5973899cf28ca039ecda3d1ccba58e9d515eaad4acbb504a61",
-          "Size": 23411
+          "Sha256": "2abea5c8d6e6295fbdcb8f0a97e88889c542f3c5f63b9e8912a8b3e1d2f66783",
+          "Size": 24057
         }
       ]
     },
@@ -861,24 +1076,26 @@
       "IsPovar": true,
       "Category": "hangar",
       "CategoryName": "Ангар",
-      "Version": "2.12.3",
+      "Version": "3.1.4",
       "SizeMb": 0.1,
-      "SizeBytes": 18594,
-      "ShortDesc": "Автоматическое продление личных и клановых резервов.",
-      "FullDesc": "Автоматически включает боевой опыт, свободный опыт или опыт экипажа в ангаре по истечении таймера, экономя время игрока.",
+      "SizeBytes": 129655,
+      "ShortDesc": "Автоматическая активация личных резервов с Gameface-доком.",
+      "FullDesc": "Автоматическая активация личных и клановых резервов. Оснащен нативным Gameface-доком в окне резервов, активацией по окончании боя и сканированием эффективности в бою.",
       "Features": [
-        "Автоматическое включение выбранных личных резервов",
-        "Поддержка клановых финансовых резервов",
-        "Гибкая настройка типов опыта через меню настроек модов"
+        "Нативный Gameface-док прямо в окне личных резервов",
+        "Активация по завершении боя (AFTERBATTLE) для максимальной экономии времени",
+        "Сканирование боевой эффективности (урон, ассист, гусеницы, оглушение) в % от HP танка",
+        "Гибкая настройка порогов и типов резервов"
       ],
       "AuthorUrl": "https://t.me/povar_mods",
       "Changelog": [],
       "Requires": [
-        "modslistapi",
-        "modssettingsapi"
+        "openwg_gameface",
+        "modslistapi"
       ],
       "CleanPatterns": [
         "povar/*auto.reserves*.mtmod",
+        "povar/*auto_reserves*.mtmod",
         "povar/*reserves*.pyc"
       ],
       "Conflicts": [],
@@ -896,12 +1113,12 @@
       "ExtraNote": "",
       "Files": [
         {
-          "Src": "files/mods/povar/povarmods.auto.reserves_2.12.3.mtmod",
-          "Path": "povar/povarmods.auto.reserves_2.12.3.mtmod",
+          "Src": "files/mods/povar/povarmods.auto.reserves_3.1.4.mtmod",
+          "Path": "povar/povarmods.auto.reserves_3.1.4.mtmod",
           "Target": "mods",
           "KeepUserCopy": false,
-          "Sha256": "5671e00dd7fb07dea00c7433210d847e6258e39b98ac8a6b69fb13257066367c",
-          "Size": 18317
+          "Sha256": "9c950d5fe9a877b08bc2942a4d82985baef17671f4c0d6b40d98154fe86e301d",
+          "Size": 129378
         },
         {
           "Src": "files/configs/auto_reserves/settings.json",
@@ -980,8 +1197,8 @@
       "Category": "hangar",
       "CategoryName": "Ангар",
       "Version": "1.9.24",
-      "SizeMb": 159.5,
-      "SizeBytes": 167205438,
+      "SizeMb": 163.6,
+      "SizeBytes": 171536524,
       "ShortDesc": "3D-локации боевых карт вместо ангара + 14 пакетов окружения.",
       "FullDesc": "Позволяет заменить стандартный ангар на трехмерное пространство любой боевой карты Мира танков (Малиновка, Химмельсдорф, Прохоровка и др.). Поддерживает свободную камеру и ротацию карт.",
       "Features": [
@@ -1019,8 +1236,8 @@
           "Path": "povar/povarmods.hangars_1.9.24.mtmod",
           "Target": "mods",
           "KeepUserCopy": false,
-          "Sha256": "fb9b26f3d2d3ab779d4aa20ea2d65f1caed39990386d3781cba043bf80403dda",
-          "Size": 2650917
+          "Sha256": "1de7bf3b07d268956cc1a8fbfa58336d404aade34a39b41c1e537535dfc5ff77",
+          "Size": 6982003
         }
       ]
     },
@@ -2006,7 +2223,7 @@
       "IsPovar": false,
       "Category": "battle",
       "CategoryName": "В бою",
-      "Version": "1.0.0",
+      "Version": "",
       "SizeMb": 0.1,
       "SizeBytes": 73531,
       "ShortDesc": "Маркеры углов поворота орудия для ПТ-САУ и артиллерии.",
@@ -2295,7 +2512,7 @@
       "IsPovar": false,
       "Category": "battle",
       "CategoryName": "В бою",
-      "Version": "1.0.0",
+      "Version": "",
       "SizeMb": 0.2,
       "SizeBytes": 200280,
       "ShortDesc": "Контрастные декали пробитий (зеленые) и рикошетов (красные).",
@@ -2385,17 +2602,16 @@
   ],
   "News": [
     {
-      "Title": "Povar Hub 1.1.0 и Modpack 1.46.13 — Облачные обновления и самообновление хаба",
       "Id": "1.46.13",
-      "Version": "1.46.13",
+      "Version": "1.1.0",
       "Tag": "РЕЛИЗ ХАБА",
-      "Date": "20 ноября 2026",
-      "Summary": "Полный переход на облачную доставку модификаций через GitHub + CDN с проверкой целостности SHA-256.",
+      "Date": "23 ноября 2026",
+      "Title": "Povar Hub 1.1.0  — Облачные обновления и самообновление хаба",
+      "Summary": "Полный переход на облачную доставку модификаций.",
       "Changes": [
         "Добавлено автоматическое скачивание модов, библиотек API и конфигов напрямую из облачного репозитория.",
         "Реализовано самообновление самого лаунчера Povar Hub при выходе новых версий.",
-        "Добавлен автоматический перенос вашего набора модов при выходе нового патча игры.",
-        "Исправлено определение обновлений по контрольным суммам SHA-256."
+        "Добавлен автоматический перенос вашего набора модов при выходе нового патча игры."
       ]
     }
   ]
