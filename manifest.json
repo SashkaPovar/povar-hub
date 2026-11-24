@@ -1,6 +1,6 @@
 {
   "Schema": 2,
-  "UpdatedAt": "2026-11-23 19:36",
+  "UpdatedAt": "2026-11-24 14:04",
   "ClientVersion": "1.46",
   "ModpackVersion": "1.46.13",
   "TelegramUrl": "https://t.me/povar_mods",
@@ -14,8 +14,8 @@
     "MinVersion": "1.1.0",
     "Src": "hub/PovarHub.exe",
     "Url": "",
-    "Sha256": "ac0c2f761ec7e067a25ab3fc70677bb564ba0849a8b43c1b4d19ef780c17a75d",
-    "Size": 764416,
+    "Sha256": "0f72954f366e9195a8be189682f7e7d50070b9f67df2ee176c4921bcdc8e7464",
+    "Size": 770048,
     "Date": "20 ноября 2026",
     "Changelog": [
       "Автоматическая загрузка и обновление модов из GitHub с проверкой SHA-256 и резервным зеркалом CDN",
@@ -798,9 +798,9 @@
       "IsPovar": true,
       "Category": "hangar",
       "CategoryName": "Ангар",
-      "Version": "0.7.0",
+      "Version": "0.7.1",
       "SizeMb": 0.1,
-      "SizeBytes": 55258,
+      "SizeBytes": 55366,
       "ShortDesc": "Быстрая загрузка пресетов БК и расходников через контекстное меню.",
       "FullDesc": "Мод позволяет создавать до 12 готовых пресетов боекомплекта и расходников и применять их в один клик через контекстное меню ПКМ прямо в ангаре.",
       "Features": [
@@ -812,6 +812,7 @@
       ],
       "AuthorUrl": "https://t.me/povar_mods",
       "Changelog": [
+        "0.7.1: Обновление и исправления стабильности работы пресетов.",
         "0.7.0: Исправлено определение ролей снарядов по дескрипторам орудий и поддержка произвольного порядка слотов."
       ],
       "Requires": [
@@ -836,12 +837,12 @@
       "ExtraNote": "",
       "Files": [
         {
-          "Src": "files/mods/povar/povarmods.ammo.equipment.preset_0.7.0.mtmod",
-          "Path": "povar/povarmods.ammo.equipment.preset_0.7.0.mtmod",
+          "Src": "files/mods/povar/povarmods.ammo.equipment.preset_0.7.1.mtmod",
+          "Path": "povar/povarmods.ammo.equipment.preset_0.7.1.mtmod",
           "Target": "mods",
           "KeepUserCopy": false,
-          "Sha256": "d184ff7f146ae5022ceeabb2793daf94fc3850b937d299ff11cda5b497fe40b1",
-          "Size": 55258
+          "Sha256": "f80728f35665bea0a1cbd8f8f3453e3823521e8b9088b5591a56155fd64dfb51",
+          "Size": 55366
         }
       ]
     },
@@ -1221,7 +1222,7 @@
       "IsNew": false,
       "IsBroken": false,
       "BrokenReason": "",
-      "IsVideoTeam": true,
+      "IsVideoTeam": false,
       "VideoTeamOnly": false,
       "ScreenshotUrl": "screenshots/hangars.jpg",
       "ScreenshotSha256": "bbfe781bf64a1db194f884ca6cea6cd9c5101928c96620c5ef4aaa562b7f2777",
@@ -1248,9 +1249,9 @@
       "IsPovar": true,
       "Category": "hangar",
       "CategoryName": "Ангар",
-      "Version": "1.7.5",
-      "SizeMb": 0.3,
-      "SizeBytes": 337342,
+      "Version": "1.9.4",
+      "SizeMb": 0.4,
+      "SizeBytes": 385047,
       "ShortDesc": "3D-модели бронирования и модулей танков прямо в ангаре.",
       "FullDesc": "Позволяет исследовать бронелисты, внутренние модули и экипаж любой боевой машины без сторонних сайтов и приложений.",
       "Features": [
@@ -1259,7 +1260,9 @@
         "Динамический расчет приведенной толщины под курсором мыши"
       ],
       "AuthorUrl": "https://t.me/povar_mods",
-      "Changelog": [],
+      "Changelog": [
+        "1.9.4: Обновление до актуальной версии."
+      ],
       "Requires": [
         "modslistapi"
       ],
@@ -1282,12 +1285,12 @@
       "ExtraNote": "",
       "Files": [
         {
-          "Src": "files/mods/povar/povarmods.armor_inspector_1.7.5.mtmod",
-          "Path": "povar/povarmods.armor_inspector_1.7.5.mtmod",
+          "Src": "files/mods/povar/povarmods.armor_inspector_1.9.4.mtmod",
+          "Path": "povar/povarmods.armor_inspector_1.9.4.mtmod",
           "Target": "mods",
           "KeepUserCopy": false,
-          "Sha256": "a1203da560c741ee9bc50aea5cfd45e91de54fe119155ca43a9037a3dc0d74b8",
-          "Size": 337342
+          "Sha256": "fb72fed63baddca7f50d797879d5666bc0a3b7a918163136edb1fc0d953389ea",
+          "Size": 385047
         }
       ]
     },
@@ -1421,7 +1424,7 @@
       "IsNew": false,
       "IsBroken": false,
       "BrokenReason": "",
-      "IsVideoTeam": true,
+      "IsVideoTeam": false,
       "VideoTeamOnly": false,
       "ScreenshotUrl": "",
       "ScreenshotSha256": "",
@@ -1693,7 +1696,7 @@
     {
       "Id": "spotted_extended",
       "Name": "Индикатор урона по разведданным",
-      "Author": "spoter",
+      "Author": "Spoter",
       "IsPovar": false,
       "Category": "battle",
       "CategoryName": "В бою",
@@ -2016,7 +2019,7 @@
     {
       "Id": "poliroid_battlehits",
       "Name": "Poliroid battlehits",
-      "Author": "poliroid",
+      "Author": "Poliroid",
       "IsPovar": false,
       "Category": "hangar",
       "CategoryName": "Ангар",
@@ -2062,11 +2065,11 @@
     {
       "Id": "safeshot",
       "Name": "Блокировка случайной стрельбы",
-      "Author": "SafeShot",
+      "Author": "ProTanki",
       "IsPovar": false,
       "Category": "battle",
       "CategoryName": "В бою",
-      "Version": "1.0.0",
+      "Version": "",
       "SizeMb": 0.1,
       "SizeBytes": 43775,
       "ShortDesc": "Блокирует случайный выстрел по союзникам и остовам танков.",
@@ -2172,7 +2175,7 @@
     {
       "Id": "quick_demount",
       "Name": "Быстрый демонтаж оборудования",
-      "Author": "panikaxa",
+      "Author": "Panikaxa",
       "IsPovar": false,
       "Category": "hangar",
       "CategoryName": "Ангар",
@@ -2219,7 +2222,7 @@
     {
       "Id": "gun_constraints",
       "Name": "Углы горизонтальной наводки (УГН)",
-      "Author": "phantasm",
+      "Author": "Phantasm",
       "IsPovar": false,
       "Category": "battle",
       "CategoryName": "В бою",
@@ -2313,7 +2316,7 @@
     {
       "Id": "control_settings",
       "Name": "Улучшенные настройки управления",
-      "Author": "nidin",
+      "Author": "Nidin",
       "IsPovar": false,
       "Category": "hangar",
       "CategoryName": "Ангар",
@@ -2362,7 +2365,7 @@
     {
       "Id": "style_filters",
       "Name": "Дополнительные фильтры стилей",
-      "Author": "panikaxa",
+      "Author": "Panikaxa",
       "IsPovar": false,
       "Category": "hangar",
       "CategoryName": "Ангар",
@@ -2411,7 +2414,7 @@
     {
       "Id": "responsive_reticle",
       "Name": "Отзывчивый прицел",
-      "Author": "pruszko",
+      "Author": "Pruszko",
       "IsPovar": false,
       "Category": "battle",
       "CategoryName": "В бою",
@@ -2458,7 +2461,7 @@
     {
       "Id": "server_list",
       "Name": "Улучшенный список серверов",
-      "Author": "nidin",
+      "Author": "Nidin",
       "IsPovar": false,
       "Category": "hangar",
       "CategoryName": "Ангар",
@@ -2508,7 +2511,7 @@
     {
       "Id": "damage_stickers",
       "Name": "Цветные отметки попаданий",
-      "Author": "spoter",
+      "Author": "Spoter",
       "IsPovar": false,
       "Category": "battle",
       "CategoryName": "В бою",
@@ -2555,11 +2558,11 @@
     {
       "Id": "rescale_reticle",
       "Name": "Истинный размер круга сведения",
-      "Author": "revan",
+      "Author": "Revan",
       "IsPovar": false,
       "Category": "battle",
       "CategoryName": "В бою",
-      "Version": "1.0.0",
+      "Version": "",
       "SizeMb": 0.1,
       "SizeBytes": 5068,
       "ShortDesc": "Корректирует отображение круга сведения согласно механике разброса.",
@@ -2596,6 +2599,110 @@
           "KeepUserCopy": false,
           "Sha256": "96169068f3f9eeba13a100f68de4dd71fe4d2ff2225f9dcbe20d9dfaf4c7b689",
           "Size": 5068
+        }
+      ]
+    },
+    {
+      "Id": "bandenere_playlists",
+      "Name": "Плейлисты техники",
+      "Author": "Bandenere",
+      "IsPovar": false,
+      "Category": "hangar",
+      "CategoryName": "Ангар",
+      "Version": "0.11.5",
+      "SizeMb": 0.2,
+      "SizeBytes": 249360,
+      "ShortDesc": "Ручные и автоматические списки техники в карусели ангара + расширенные фильтры.",
+      "FullDesc": "Позволяет собирать собственные плейлисты техники и переключать их прямо в штатном окне фильтров карусели ангара. Поддерживает ручные и автоматические списки, полноэкранный редактор и расширенные фильтры (отметки на стволах, знаки классности, льготный уровень боёв, Полевая модернизация и др.). Работает в обычном ангаре, Аркаде, Натиске, клановых режимах, на ГК и Линии фронта.",
+      "Features": [
+        "Ручные плейлисты с собственным составом и порядком машин в полноэкранном редакторе",
+        "Автоматические плейлисты по сочетаниям фильтров с поддержкой исключений",
+        "Дополнительные фильтры: роли, отметки на стволах, знаки классности, льготный уровень боёв, Полевая модернизация",
+        "Поддержка обычного ангара, Аркады, Натиска, ГК и Линии фронта",
+        "Не требует XVM и дополнительных библиотек; независимые настройки для разных аккаунтов"
+      ],
+      "AuthorUrl": "",
+      "Changelog": [
+        "0.11.5: Добавлена поддержка Аркады, сохранение выбранного плейлиста после боя."
+      ],
+      "Requires": [],
+      "CleanPatterns": [
+        "*bandenere.playlists*.mtmod"
+      ],
+      "Conflicts": [],
+      "IsNew": false,
+      "IsBroken": false,
+      "BrokenReason": "",
+      "IsVideoTeam": false,
+      "VideoTeamOnly": false,
+      "ScreenshotUrl": "",
+      "ScreenshotSha256": "",
+      "Hidden": false,
+      "BadgeText": "",
+      "BadgeColor": "#F97316",
+      "HideSize": false,
+      "ExtraNote": "",
+      "Files": [
+        {
+          "Src": "files/mods/bandenere.playlists_0.11.5.mtmod",
+          "Path": "bandenere.playlists_0.11.5.mtmod",
+          "Target": "mods",
+          "KeepUserCopy": false,
+          "Sha256": "c92e684776c2d3f6e0e9b38f81aa764e2d414c8cb25db359edb875fc74beb9b2",
+          "Size": 249360
+        }
+      ]
+    },
+    {
+      "Id": "battle_journal",
+      "Name": "Боевой журнал",
+      "Author": "KrHuda",
+      "IsPovar": false,
+      "Category": "stats",
+      "CategoryName": "Статистика",
+      "Version": "1.13.23",
+      "SizeMb": 0.8,
+      "SizeBytes": 860188,
+      "ShortDesc": "Подробный журнал боёв: отметки на стволах, Натиск, урон от арты и статистика карт.",
+      "FullDesc": "Информативный боевой журнал и трекер прогресса в ангаре и бою. Позволяет отслеживать прогресс отметок на стволах, результаты и статистику режима Натиск, полученный урон от артиллерии, детальную историю проведённых боёв и эффективность по картам.",
+      "Features": [
+        "Отслеживание прогресса отметок на стволах в реальном времени",
+        "Подробная статистика по режиму Натиск и обычным боям",
+        "Учёт полученного урона от артиллерии",
+        "Журнал проведённых боёв и аналитика по игровым картам",
+        "Гибкая настройка отображения через ModsSettingsAPI"
+      ],
+      "AuthorUrl": "",
+      "Changelog": [
+        "1.13.23: Актуальная версия для клиента игры."
+      ],
+      "Requires": [
+        "modssettingsapi"
+      ],
+      "CleanPatterns": [
+        "*battlejournal*.mtmod"
+      ],
+      "Conflicts": [],
+      "IsNew": false,
+      "IsBroken": false,
+      "BrokenReason": "",
+      "IsVideoTeam": false,
+      "VideoTeamOnly": false,
+      "ScreenshotUrl": "",
+      "ScreenshotSha256": "",
+      "Hidden": false,
+      "BadgeText": "",
+      "BadgeColor": "#F97316",
+      "HideSize": false,
+      "ExtraNote": "",
+      "Files": [
+        {
+          "Src": "files/mods/battlejournal_1.13.23.mtmod",
+          "Path": "battlejournal_1.13.23.mtmod",
+          "Target": "mods",
+          "KeepUserCopy": false,
+          "Sha256": "82981a47a0e3b64f2a19d9d4422daeb26c564e41cbdcf8a1e6032b0bf3a44cae",
+          "Size": 860188
         }
       ]
     }
