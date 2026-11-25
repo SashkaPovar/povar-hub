@@ -1,6 +1,6 @@
 {
   "Schema": 2,
-  "UpdatedAt": "2026-11-24 14:04",
+  "UpdatedAt": "2026-11-25 21:07",
   "ClientVersion": "1.46",
   "ModpackVersion": "1.46.13",
   "TelegramUrl": "https://t.me/povar_mods",
@@ -14,7 +14,7 @@
     "MinVersion": "1.1.0",
     "Src": "hub/PovarHub.exe",
     "Url": "",
-    "Sha256": "0f72954f366e9195a8be189682f7e7d50070b9f67df2ee176c4921bcdc8e7464",
+    "Sha256": "0f349a676f09d9067a319f76f09a17fbb55e0ccf34dab748a410a66a08cfa329",
     "Size": 770048,
     "Date": "20 ноября 2026",
     "Changelog": [
@@ -1249,9 +1249,9 @@
       "IsPovar": true,
       "Category": "hangar",
       "CategoryName": "Ангар",
-      "Version": "1.9.4",
+      "Version": "1.9.7",
       "SizeMb": 0.4,
-      "SizeBytes": 385047,
+      "SizeBytes": 384900,
       "ShortDesc": "3D-модели бронирования и модулей танков прямо в ангаре.",
       "FullDesc": "Позволяет исследовать бронелисты, внутренние модули и экипаж любой боевой машины без сторонних сайтов и приложений.",
       "Features": [
@@ -1285,12 +1285,12 @@
       "ExtraNote": "",
       "Files": [
         {
-          "Src": "files/mods/povar/povarmods.armor_inspector_1.9.4.mtmod",
-          "Path": "povar/povarmods.armor_inspector_1.9.4.mtmod",
+          "Src": "files/mods/povar/povarmods.armor_inspector_1.9.7.mtmod",
+          "Path": "povar/povarmods.armor_inspector_1.9.7.mtmod",
           "Target": "mods",
           "KeepUserCopy": false,
-          "Sha256": "fb72fed63baddca7f50d797879d5666bc0a3b7a918163136edb1fc0d953389ea",
-          "Size": 385047
+          "Sha256": "6ba5115c7a01887d9c2aec727d1753f292cd83b6609a3bd2ee0adcde5d04f4a0",
+          "Size": 384900
         }
       ]
     },
